@@ -1,18 +1,36 @@
 body, html {
-  height: 100%;
+  height:100%;
 }
 
-
+body{
+  font-family: 'Josefin Sans', sans-serif;  
+  margin:auto;
+  
+  }
 
 .bg {
-  /* The image used */
-  background-image: url(/images/business-travel-bg.jpeg);
-
-  /* Full height */
+  background-image: url(/assets/images/business-travel-bg.jpeg);
   height: 100%;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+#collapsibleNavbar a{
+    color:white;
+   
+     }
+
+.navbar {
+    background-color:#bd7642;
+    opacity: 0.7;
+    
+     }
+
+
+
+.navbar-nav {
+    text-align: center;
+}
+
