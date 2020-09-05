@@ -37,3 +37,57 @@ body{
 .nav-link {
 padding: 0;
 }
+
+.contact-container{
+background-image: url(/assets/images/business-travel-bg.jpeg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Copied from 'Love Running' tutorial, and taylored to meet my requirements*/
+.signup-form {
+  margin-top: 3%;
+  color: #fff;
+  background-color:#738591;
+  width:60%;
+  opacity: 0.8;
+  position: absolute;
+  left: 15%;
+  padding: 3% 3%;
+  
+}
+/*Copied from 'Love Running' tutorial, and taylored to meet my requirements*/
+.signup-form h2{
+  color: #fafafa;
+  margin-bottom: 2%;
+}
+/*Copied from 'Love Running' tutorial, and taylored to meet my requirements*/
+.text-input {
+  color:#fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  bottom: 20px;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
+/*Copied from 'Love Running' tutorial, and taylored to meet my requirements*/
+.text-input:hover{
+  border-color:#f16c6b;
+}
+
+/*Copied from 'Love Running' tutorial, and taylored to meet my requirements*/
+.join-button {
+  border-radius: 12px;
+  padding:2% 2% 2% 2%;
+  font-size: 100%;
+  background-color: #f7c04b;
+  color: black;
+}
+/*Copied from 'Love Running' tutorial, and taylored to meet my requirements*/
+.join-button:hover{
+  background-color: #fafafa;
+  color: #f16c6b;
+}
