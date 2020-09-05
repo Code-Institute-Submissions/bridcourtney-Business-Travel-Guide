@@ -23,7 +23,7 @@ body{
      }
 
 .navbar {
-    background-color:#bd7642;
+    background-color:#07050a;
     opacity: 0.7;
     
      }
@@ -34,3 +34,6 @@ body{
     text-align: center;
 }
 
+.nav-link {
+padding: 0;
+}
