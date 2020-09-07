@@ -3,11 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Abbott Travel Guide</title>
+        <title>Abbott Travel Guide</title> 
+        
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+         
     </head>
     <body>
     
@@ -35,15 +37,77 @@
                                 </ul>
                             </div> 
                 </nav>      
-               
+                        <div class="hotel-search">
+                            <div id="findhotels">
+                                Find hotels in:
+                        </div>
+
+                        <div id="locationField">
+                            <input id="autocomplete" placeholder="Enter a city" type="text" />
+                        </div>
+
+                        <div id="controls">
+                            <select id="country">
+                            <option value="all">All</option>
+                            <option value="au">Australia</option>
+                            <option value="br">Brazil</option>
+                            <option value="ca">Canada</option>
+                            <option value="fr">France</option>
+                            <option value="de">Germany</option>
+                            <option value="mx">Mexico</option>
+                            <option value="nz">New Zealand</option>
+                            <option value="it">Italy</option>
+                            <option value="za">South Africa</option>
+                            <option value="es">Spain</option>
+                            <option value="pt">Portugal</option>
+                            <option value="us" selected>U.S.A.</option>
+                            <option value="uk">United Kingdom</option>
+                            </select>
+                        </div>
+                        </div>
+
+                        <div id="map"></div>
+
+                        <div id="listing">
+                        <table id="resultsTable">
+                            <tbody id="results"></tbody>
+                        </table>
+                        </div>
+
+                        <div style="display: none">
+                        <div id="info-content">
+                            <table>
+                            <tr id="iw-url-row" class="iw_table_row">
+                                <td id="iw-icon" class="iw_table_icon"></td>
+                                <td id="iw-url"></td>
+                            </tr>
+                            <tr id="iw-address-row" class="iw_table_row">
+                                <td class="iw_attribute_name">Address:</td>
+                                <td id="iw-address"></td>
+                            </tr>
+                            <tr id="iw-phone-row" class="iw_table_row">
+                                <td class="iw_attribute_name">Telephone:</td>
+                                <td id="iw-phone"></td>
+                            </tr>
+                            <tr id="iw-rating-row" class="iw_table_row">
+                                <td class="iw_attribute_name">Rating:</td>
+                                <td id="iw-rating"></td>
+                            </tr>
+                            <tr id="iw-website-row" class="iw_table_row">
+                                <td class="iw_attribute_name">Website:</td>
+                                <td id="iw-website"></td>
+                            </tr>
+                            </table>
+                        </div>
+                        </div>              
             </div>
       
-                   
                     
+                    <script src="assets/js/maps.js"></script>
                     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
                     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>                  
-                    
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh4Jyk-YAtab9gUgMntitBNNHx8PDcYo4&callback=initMap&libraries=places "></script> 
                      
                 
     </body>
