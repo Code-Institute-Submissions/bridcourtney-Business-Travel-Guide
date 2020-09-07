@@ -92,32 +92,13 @@ background-image: url(/assets/images/business-travel-bg.jpeg);
   color: #f16c6b;
 }
 
-/*div#map {min-height: 360px;}
-
-/* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-
-       /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
 #map {
-  height: 100%;
+  margin-top: 30%;
+  height: 400px;
+  width: 100%;
 }
 
-/* Optional: Makes the sample page fill the window. */
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 
-body {
-  padding: 0 !important;
-}
-
-table {
-  font-size: 12px;
-}
 
 .hotel-search {
   -webkit-box-align: center;
@@ -134,21 +115,6 @@ table {
   z-index: 1;
 }
 
-#map {
-  margin-top: 40px;
-  width: 440px;
-}
-
-#listing {
-  position: absolute;
-  width: 200px;
-  height: 470px;
-  overflow: auto;
-  left: 442px;
-  top: 0px;
-  cursor: pointer;
-  overflow-x: hidden;
-}
 
 #findhotels {
   font-size: 14px;
@@ -186,10 +152,6 @@ table {
   height: 24px;
 }
 
-#resultsTable {
-  border-collapse: collapse;
-  width: 240px;
-}
 
 #rating {
   font-size: 13px;

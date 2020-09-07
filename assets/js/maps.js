@@ -182,18 +182,6 @@ function addResult(result, i) {
   tr.onclick = function() {
     google.maps.event.trigger(markers[i], "click");
   };
-  const iconTd = document.createElement("td");
-  const nameTd = document.createElement("td");
-  const icon = document.createElement("img");
-  icon.src = markerIcon;
-  icon.setAttribute("class", "placeIcon");
-  icon.setAttribute("className", "placeIcon");
-  const name = document.createTextNode(result.name);
-  iconTd.appendChild(icon);
-  nameTd.appendChild(name);
-  tr.appendChild(iconTd);
-  tr.appendChild(nameTd);
-  results.appendChild(tr);
 }
 
 function clearResults() {
