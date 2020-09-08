@@ -8,9 +8,9 @@ body{
   
   }
 
-.bg {
+.bg-container {
   background-image: url(/assets/images/business-travel-bg.jpeg);
-  height: 100%;
+  height: 60%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,7 +93,6 @@ background-image: url(/assets/images/business-travel-bg.jpeg);
 }
 
 #map {
-  margin-top: 30%;
   height: 400px;
   width: 100%;
 }
