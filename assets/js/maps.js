@@ -182,6 +182,7 @@ function addResult(result, i) {
   tr.onclick = function() {
     google.maps.event.trigger(markers[i], "click");
   };
+
 }
 
 function clearResults() {

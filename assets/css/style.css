@@ -98,7 +98,6 @@ background-image: url(/assets/images/business-travel-bg.jpeg);
 }
 
 
-
 .hotel-search {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -107,11 +106,11 @@ background-image: url(/assets/images/business-travel-bg.jpeg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  left: 0;
+  left: 33%;
   position: absolute;
-  top: 0;
-  width: 440px;
-  z-index: 1;
+  top: 33%;
+  width: 400PX;
+ 
 }
 
 
