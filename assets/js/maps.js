@@ -104,12 +104,17 @@ function onPlaceChanged() {
     document.getElementById("autocomplete").placeholder = "Enter a city";
   }
 }
+var searchFor;
+document.getElementById("food").addEventListener("click", function(){
+searchFor =['restaurant','bar'];
+clearMarkers();
+});
 
 // Search for hotels in the selected city, within the viewport of the map.
 function search() {
   const search = {
     bounds: map.getBounds(),
-    types: ["lodging"]
+    types: searchFor
   };
   places.nearbySearch(search, (results, status, pagination) => {
     if (status === google.maps.places.PlacesServiceStatus.OK) {
