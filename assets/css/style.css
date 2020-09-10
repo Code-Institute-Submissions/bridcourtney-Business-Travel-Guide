@@ -97,6 +97,16 @@ background-image: url(/assets/images/business-travel-bg.jpeg);
   width: 100%;
 }
 
+#listing {
+  position: absolute;
+  width: 200px;
+  height: 470px;
+  overflow: auto;
+  left: 442px;
+  top: 0px;
+  cursor: pointer;
+  overflow-x: hidden;
+}
 
 .hotel-search {
   -webkit-box-align: center;
@@ -150,6 +160,10 @@ background-image: url(/assets/images/business-travel-bg.jpeg);
   height: 24px;
 }
 
+#resultsTable {
+  border-collapse: collapse;
+  width: 240px;
+}
 
 #rating {
   font-size: 13px;
