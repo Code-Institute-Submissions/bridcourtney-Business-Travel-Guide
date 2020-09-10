@@ -3,6 +3,7 @@ let places;
 let infoWindow;
 let markers = [];
 let autocomplete;
+let searchFor;
 const countryRestrict = { country: "us" };
 const MARKER_PATH =
   "https://developers.google.com/maps/documentation/javascript/images/marker_green";
@@ -104,9 +105,14 @@ function onPlaceChanged() {
     document.getElementById("autocomplete").placeholder = "Enter a city";
   }
 }
-var searchFor;
+
 document.getElementById("food").addEventListener("click", function(){
-searchFor =['restaurant','bar'];
+searchFor =['restaurant','bar','cafe','meal_takeaway'];
+clearMarkers();
+});
+
+document.getElementById("sights").addEventListener("click", function(){
+searchFor =['museum','bowling_alley'];
 clearMarkers();
 });
 
