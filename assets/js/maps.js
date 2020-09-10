@@ -65,8 +65,8 @@ const countries = {
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
-    zoom: countries["us"].zoom,
-    center: countries["us"].center,
+    zoom: 2,
+    center: { lat: 15, lng: 0 },
     mapTypeControl: false,
     panControl: false,
     zoomControl: false,
@@ -81,7 +81,7 @@ function initMap() {
     document.getElementById("autocomplete"),
     {
       types: ["(cities)"],
-      componentRestrictions: countryRestrict
+      //componentRestrictions: countryRestrict
     }
   );
   places = new google.maps.places.PlacesService(map);
