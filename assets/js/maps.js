@@ -81,7 +81,7 @@ function initMap() {
     document.getElementById("autocomplete"),
     {
       types: ["(cities)"],
-      //componentRestrictions: countryRestrict
+      
     }
   );
   places = new google.maps.places.PlacesService(map);
@@ -100,20 +100,34 @@ function onPlaceChanged() {
   if (place.geometry) {
     map.panTo(place.geometry.location);
     map.setZoom(15);
-    search();
+    //search();
   } else {
     document.getElementById("autocomplete").placeholder = "Enter a city";
   }
 }
 
+
+document.getElementById("hotel").addEventListener("click", function(){
+searchFor =['lodging'];
+  search();
+   clearMarkers();   
+});
+
 document.getElementById("food").addEventListener("click", function(){
 searchFor =['restaurant','bar','cafe','meal_takeaway'];
-clearMarkers();
+
+
+  search();
+   clearMarkers();   
+
 });
 
 document.getElementById("sights").addEventListener("click", function(){
 searchFor =['museum','bowling_alley'];
-clearMarkers();
+
+  search();
+   clearMarkers();   
+
 });
 
 // Search for hotels in the selected city, within the viewport of the map.

@@ -97,13 +97,12 @@ background-image: url(/assets/images/business-travel-bg.jpeg);
   width: 100%;
 }
 
-#listing {
+.listing {
   position: absolute;
   width: 200px;
   height: 470px;
   overflow: auto;
-  left: 442px;
-  top: 0px;
+  top: 60%;
   cursor: pointer;
   overflow-x: hidden;
 }
