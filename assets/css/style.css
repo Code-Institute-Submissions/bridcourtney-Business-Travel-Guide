@@ -102,7 +102,7 @@ background-image: url(/assets/images/business-travel-bg.jpeg);
   width: 200px;
   height: 470px;
   overflow: auto;
-  top: 60%;
+  top: 70%;
   cursor: pointer;
   overflow-x: hidden;
 }
@@ -182,3 +182,8 @@ background-image: url(/assets/images/business-travel-bg.jpeg);
   text-align: right;
 }
 
+#place-button-group{
+position: absolute;
+ top: 60%;
+cursor: pointer;
+}
