@@ -90,7 +90,44 @@ function initMap() {
   document
     .getElementById("country")
     .addEventListener("change", setAutocompleteCountry);
+
+  document.getElementById('submit').addEventListener('click', function() {
+      clearResults();
+      clearMarkers();
+    var geocoder = new google.maps.Geocoder;
+    var infowindow = new google.maps.InfoWindow;
+    geocodeLatLng(geocoder, map, infowindow);
+  });
 }
+function geocodeLatLng(geocoder, map, infowindow) {
+  const input = document.getElementById("latlng").value;
+  const latlngStr = input.split(",", 2);
+  const latlng = {
+    lat: parseFloat(latlngStr[0]),
+    lng: parseFloat(latlngStr[1])
+  };
+  geocoder.geocode({ location: latlng }, (results, status) => {
+    if (status === "OK") {
+      if (results[0]) {
+        map.setZoom(11);
+        const marker = new google.maps.Marker({
+          position: latlng,
+          map: map
+        });
+        infowindow.setContent(results[0].formatted_address);
+        infowindow.open(map, marker);
+      } else {
+        window.alert("No results found");
+      }
+    } else {
+      window.alert("Geocoder failed due to: " + status);
+    }
+  });
+}
+
+   
+  
+
 
 // When the user selects a city, get the place details for the city and
 // zoom the map in on the city.
@@ -296,3 +333,49 @@ function buildIWContent(place) {
     document.getElementById("iw-website-row").style.display = "none";
   }
 }
+    // GeoJSON, describing the locations and names of some cities.
+const cities = {
+  type: "FeatureCollection",
+  features: [
+    {
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [-87.65, 41.85] },
+      properties: { name: "Chicago" }
+    },
+    {
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [-149.9, 61.218] },
+      properties: { name: "Anchorage" }
+    },
+    {
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [-99.127, 19.427] },
+      properties: { name: "Mexico City" }
+    },
+    {
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [-0.126, 51.5] },
+      properties: { name: "London" }
+    },
+    {
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [28.045, -26.201] },
+      properties: { name: "Johannesburg" }
+    },
+    {
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [15.322, -4.325] },
+      properties: { name: "Kinshasa" }
+    },
+    {
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [151.207, -33.867] },
+      properties: { name: "Sydney" }
+    },
+    {
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [0, 0] },
+      properties: { name: "0°N 0°E" }
+    }
+  ]
+};
