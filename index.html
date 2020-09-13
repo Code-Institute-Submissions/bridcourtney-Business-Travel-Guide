@@ -38,22 +38,36 @@
                                 </ul>
                             </div> 
                 </nav>   
-                            Name: <input type="text" id="myLatLng" value="15,0">
+                          
 
-                            <p>Click the image to change Latitude & Longitude</p>
+                             
+
+                           
                         
-                            <img src="assets/images/a_sig_horiz_bw_png.png" onclick="myFunction()" alt="Abbott Logo">
-                            
+                           
+                                    <input id="latlng" type="text" value="" />
+                                 
+                           
+                            <div id="submit">
+                            <a href="#"><img src="assets/images/a_sig_horiz_bw_png.png" onclick="myFunction1()" alt="Abbott Logo"></a>
+
+                            <a href="#"><img src="assets/images/a_sig_horiz_bw_png.png" onclick="myFunction2()" alt="Abbott Logo"></a>
+                            </div>
                             <script>
-                            function myFunction() {
-                            document.getElementById("myLatLng").value = "40.714224,-73.961452";
+                            function myFunction1() {
+                            document.getElementById("latlng").value = "40.714224,-73.961452";
+                            }
+                            </script>
+                            <script>
+                            function myFunction2() {
+                            document.getElementById("latlng").value = "54.2778667,-8.4998002";
                             }
                             </script>
 
-                             <div id="floating-panel">
-                                    <input id="latlng" type="text" value="40.714224,-73.961452" />
-                                    <input id="submit" type="button" value="Reverse Geocode" />
-                            </div>
+                           
+
+                          
+
 
                             <div class="hotels-search">
                                 
@@ -80,7 +94,7 @@
                                     <option value="uk">United Kingdom</option>
                                     </select>
                                 </div>
-                                <div id = "test" >
+                                <div id = "test2" >
                                     <div class="btn-group btn-group-lg btn-group-vertical" role="group" aria-label="Basic example">
                                             <button type="button" id="hotel" class="btn btn-secondary">Hotels</button>
                                             <button type="button" id="sights" class="btn btn-secondary">Attractions</button>
