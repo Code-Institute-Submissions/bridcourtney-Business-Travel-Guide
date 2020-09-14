@@ -76,26 +76,19 @@
                             function myFunction2() {
                             document.getElementById("latlng").value = "54.2778667,-8.4998002";
                             }
-                            </script>
-
-                           
-
-                          
-
-
-                            
-                                
-
-                                
+                            </script>                            
             </div>  
-
-            <div class= "map-container">
-
-                         <div id="map"></div>
-                         <div id="locationField">
-                                    <input id="autocomplete" placeholder="Enter a city" type="text" />
-                                </div>
-
+            <div class ="search-city">
+                        <nav class="navbar navbar-light bg-light">
+                            <form class="form-inline">
+                                <input id="autocomplete" placeholder="Enter a city" type="text" />
+                                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+                                                        <button type="button" id="hotel" class="btn btn-secondary">Hotels</button>
+                                                        <button type="button" id="sights" class="btn btn-secondary">Attractions</button>
+                                                        <button type="button" id="food" class="btn btn-secondary">Restaurants</button>
+                                                </div>
+                            </form>
+                        </nav>
                                 <div id="controls">
                                     <select id="country">
                                     <option value="all" selected >All</option>
@@ -117,18 +110,18 @@
                                 
                                    
                                                 
+                </div>
+            
+            <div class= "map-container">
+
+                         <div id="map"></div>
+                         
                            <div class ="listing d-none d-md-block">
                                 <table id="resultsTable">
                                     <tbody id="results"></tbody>
                                 </table>
                             </div>
-                            <div id = "place-button-group" >
-                                    <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
-                                            <button type="button" id="hotel" class="btn btn-secondary">Hotels</button>
-                                            <button type="button" id="sights" class="btn btn-secondary">Attractions</button>
-                                            <button type="button" id="food" class="btn btn-secondary">Restaurants</button>
-                                    </div>
-                                </div>
+                           
 
                         <div style="display: none">
                             <div id="info-content">
