@@ -188,3 +188,12 @@ card img {
 }
 
 
+#my_footer {
+	width:100%;
+	text-align: center;
+}
+
+#copyright {
+	margin-top:10px;
+	margin-bottom:10px;
+}
