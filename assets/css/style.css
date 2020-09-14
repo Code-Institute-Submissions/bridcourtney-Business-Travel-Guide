@@ -100,48 +100,29 @@ background-image: url(/assets/images/business-travel-bg.jpeg);
 .listing {
   position: absolute;
   width: 200px;
-  height: 470px;
+  height: 250px;
   overflow: auto;
-  top: 70%;
+  top: 80%;
   cursor: pointer;
   overflow-x: hidden;
 }
 
-.hotel-search {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  left: 33%;
-  position: absolute;
-  top: 33%;
-  width: 400PX;
+
+
+#locationField {
+position: absolute;
+ top: 75%;
  
 }
 
-
-#findhotels {
-  font-size: 14px;
-}
-
-#locationField {
-  -webkit-box-flex: 1 1 190px;
-  -ms-flex: 1 1 190px;
-  flex: 1 1 190px;
-  margin: 0 8px;
-}
-
-#controls {
-  -webkit-box-flex: 1 1 140px;
-  -ms-flex: 1 1 140px;
-  flex: 1 1 140px;
+#place-button-group{
+position: absolute;
+ top: 64%;
+cursor: pointer;
 }
 
 #autocomplete {
-  width: 100%;
+  width: 150%;
 }
 
 #country {
@@ -182,8 +163,28 @@ background-image: url(/assets/images/business-travel-bg.jpeg);
   text-align: right;
 }
 
-#place-button-group{
-position: absolute;
- top: 60%;
-cursor: pointer;
+
+
+.map-container{
+    margin:2%;
 }
+
+#latlng-details{
+    visibility: hidden;
+}
+
+#controls{
+    visibility: hidden;
+}
+
+card img {
+  opacity: 0.7;
+ 
+}
+
+.card img:hover {
+  opacity: 1.0;
+  width: fit-content;
+}
+
+
