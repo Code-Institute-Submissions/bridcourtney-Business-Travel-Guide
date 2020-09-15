@@ -32,7 +32,7 @@
                                 <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
                                     
-                                    <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> CONTACT US</a>
+                                    <a class="nav-link" href="test.html"><i class="fas fa-envelope"></i> CONTACT US</a>
                                 </li>
                               
                                 
@@ -42,58 +42,62 @@
                            <div id ="latlng-details">
                                     <input id="latlng" type="text" value="" />
                              </div>    
-              
-            
-                           
+        <div class="container">
+         <h3>Click on images to view information and map location</h3>
+            <div id ="submit">
+                      <div class="row">
+                        
+                          <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                                <div class="MultiCarousel-inner">
+                                  
+                                <div class="item">
+                                    <div class="pad15">
+                                        <a href="#"><img src="assets/images/ire.jpg"  onclick="myFunction1()" alt="img1" class="img-fluid mx-auto d-block"></a>
+                                        <p>test</p>
+                                     </div>
+                                </div>
+                                
+                                <div class="item">
+                                    <div class="pad15">
+                                      <a href="#"><img src="assets/images/german.jpg"  onclick="myFunction2()" alt="img1" class="img-fluid mx-auto d-block"></a>
+                                    <p>test</p>
+                                    </div>    
+                                </div>
+                                <div class="item">
+                                    <div class="pad15">
+                                      <a href="#"><img src="assets/images/india.jpg"  onclick="myFunction2()" alt="img1" class="img-fluid mx-auto d-block"></a>
+                                    <p>test</p>
+                                    </div>    
+                                </div>
+                                <div class="item">
+                                    <div class="pad15">
+                                      <a href="#"><img src="assets/images/chicago.jpg"  onclick="myFunction2()" alt="img1" class="img-fluid mx-auto d-block"></a>
+                                    <p>test</p>
+                                    </div>    
+                                </div>
+                                <div class="item">
+                                    <div class="pad15">
+                                      <a href="#"><img src="assets/images/paris.jpg"  onclick="myFunction2()" alt="img1" class="img-fluid mx-auto d-block"></a>
+                                    <p>test</p>
+                                    </div>    
+                                </div>
+                             <div class="item">
+                                    <div class="pad15">
+                                      <a href="#"><img src="assets/images/rio.jpg"  onclick="myFunction2()" alt="img1" class="img-fluid mx-auto d-block"></a>
+                                    <p>test</p>
+                                    </div>    
+                                </div>
+                                             
+                            </div>
+                                <button class="btn btn-primary leftLst"><</button>
+                                <button class="btn btn-primary rightLst">></button>
+                          </div>
+                      </div>
+                    </div> 
+                    </div>
+
+  
                             
-                                <div class="row">
-                                      <div id="submit">       
-                                            <div class="card">
-                                                <img class="card-img-top" src="assets/images/ire.jpg" onclick="myFunction1()" alt="Database image">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">Irish Site</h5>
-                                                    <p class="card-text">Information</p>
-        
-                                                </div>
-                                            </div>
-                                            <div class="card">
-                                                <img class="card-img-top" src="assets/images/german.jpg" onclick="myFunction2()" alt="Library image">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">German Site</h5>
-                                                    <p class="card-text">Information</p>   
-                                                </div>
-                                            </div>
-                                            <div class="card">
-                                                <img class="card-img-top" src="assets/images/india.jpg" onclick="myFunction3()" alt="Library image">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">India Site</h5>
-                                                    <p class="card-text">Information</p>   
-                                                </div>
-                                            </div>
-                                            <div class="card">
-                                                <img class="card-img-top" src="assets/images/paris.jpg" onclick="myFunction4()" alt="Library image">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">India Site</h5>
-                                                    <p class="card-text">Information</p>   
-                                                </div>
-                                            </div>
-                                            <div class="card">
-                                                <img class="card-img-top" src="assets/images/chicago.jpg" onclick="myFunction5()" alt="Library image">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">India Site</h5>
-                                                    <p class="card-text">Information</p>   
-                                                </div>
-                                            </div>
-                                             <div class="card">
-                                                <img class="card-img-top" src="assets/images/rio.jpg" onclick="myFunction6()" alt="Library image">
-                                                <div class="card-body">
-                                                    <h5 class="card-title">India Site</h5>
-                                                    <p class="card-text">Information</p>   
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>       
-            
                             <script>
                             function myFunction1() {
                             document.getElementById("latlng").value = "40.714224,-73.961452";
@@ -119,11 +123,11 @@
             </div>  
             <div class ="search-city">
                 <div class = "row">
-                         <div class="col-sm-6 text-center container-fluid">
+                         <div class="col-sm-6">
                                 <input id="autocomplete" placeholder="Enter a city" type="text" />
                                               
                          </div>
-                         <div class="col-sm-6 text-center container-fluid">
+                         <div class="col-sm-6">
                                                 <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
                                                         <button type="button" id="hotel" class="btn btn-secondary">Hotels</button>
                                                         <button type="button" id="sights" class="btn btn-secondary">Attractions</button>
@@ -201,8 +205,9 @@
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
                     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>                  
                     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh4Jyk-YAtab9gUgMntitBNNHx8PDcYo4&callback=initMap&libraries=places "></script> 
-                      <script src="assets/js/index.js"></script>
+                      <script src="assets/js/carousal.js"></script>
                       <script src="assets/js/maps.js"></script>
+                  
                 
     </body>
 

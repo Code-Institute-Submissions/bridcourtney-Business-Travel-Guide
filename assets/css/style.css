@@ -152,22 +152,17 @@ padding: 0;
     visibility: hidden;
 }
 
-.card img {
+.pad15 img {
   opacity: 1.0;
  
 }
 
-.card img:hover {
+.pad15 img:hover {
   opacity: 0.7;
   width: fit-content;
 }
 
-.card{
-  display: inline-block;
-  margin: 1em;
-  margin-left: 5em;
-  background-color:rgba(233, 230, 212, 0.7);
-}
+
 
 
 #my_footer {
@@ -179,4 +174,42 @@ padding: 0;
 	margin-top:10px;
 	margin-bottom:10px;
 }
+ .MultiCarousel { 
+    float: left; 
+    overflow: hidden; 
+    padding: 5px; 
+    width: 100%; 
+    position:relative; 
+    }
+  .MultiCarousel .MultiCarousel-inner { 
+      transition: 1s ease all; 
+      float: left; 
+    }
+    
+  .MultiCarousel .MultiCarousel-inner .item {
+        float: left;
+        }
 
+  .MultiCarousel .MultiCarousel-inner .item > div { 
+    text-align: center; 
+    padding:0px; 
+    margin:5px; 
+    background:#f1f1f1; 
+    color:#666;
+  }
+  .MultiCarousel .leftLst, .MultiCarousel .rightLst { 
+    position:absolute; 
+    border-radius:50%;
+    top:calc(50% - 20px); 
+  }
+  .MultiCarousel .leftLst { 
+      left:0; 
+    }
+.MultiCarousel .rightLst { 
+  right:0; 
+  }
+    
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
+  pointer-events: none; 
+  background:#ccc; 
+}
