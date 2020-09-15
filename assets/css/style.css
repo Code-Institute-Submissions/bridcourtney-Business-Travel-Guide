@@ -155,12 +155,12 @@ background-image: url(/assets/images/business-travel-bg.jpeg);
 }
 
 .card img {
-  opacity: 0.7;
+  opacity: 1.0;
  
 }
 
 .card img:hover {
-  opacity: 1.0;
+  opacity: 0.7;
   width: fit-content;
 }
 
