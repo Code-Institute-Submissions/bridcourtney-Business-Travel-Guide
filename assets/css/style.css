@@ -7,8 +7,6 @@ body{
   }
 
 .bg-container {
-  background-image: url(/assets/images/business-travel-bg.jpeg);
-  height: 60%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,7 +35,6 @@ padding: 0;
 }
 
 .contact-container{
-background-image: url(/assets/images/business-travel-bg.jpeg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
