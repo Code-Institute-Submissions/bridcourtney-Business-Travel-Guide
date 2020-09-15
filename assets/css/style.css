@@ -7,7 +7,7 @@ body{
   }
 
 .bg-container {
-background: url(../images/bg-main.jpg) no-repeat center center;
+background: url(../images/business-travel-bg.jpeg) no-repeat center center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -180,6 +180,3 @@ padding: 0;
 	margin-bottom:10px;
 }
 
-.search-city{
-text-align:center;
-}
