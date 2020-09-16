@@ -88,6 +88,10 @@ padding: 0;
   color: #f16c6b;
 }
 
+#index-header{
+    text-align: center;
+    color:dark grey;
+}
 .btn-group{
   padding:2% 2% 2% 2%;
   font-size: 100%;   
