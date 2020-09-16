@@ -91,7 +91,7 @@ function initMap() {
     .getElementById("country")
     .addEventListener("change", setAutocompleteCountry);
 
-  document.getElementById('submit').addEventListener('click', function() {
+  document.getElementById('submit').addEventListener('mouseover', function() {
       clearResults();
       clearMarkers();
     var geocoder = new google.maps.Geocoder;
