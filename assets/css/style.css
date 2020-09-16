@@ -88,6 +88,17 @@ padding: 0;
   color: #f16c6b;
 }
 
+.btn-group{
+  padding:2% 2% 2% 2%;
+  font-size: 100%;   
+}
+
+#autocomplete{
+    width: 60%;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
 #map {
   height: 400px;
   width: 100%;
