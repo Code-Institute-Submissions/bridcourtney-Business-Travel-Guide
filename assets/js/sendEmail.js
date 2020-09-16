@@ -5,12 +5,16 @@ function sendMail(contactForm) {
         "comment": contactForm.comment.value
     })
     .then(
-        function(response) {
-            console.log("SUCCESS", response);
+        function(_response) {
+            alert('Email sent successfully');
+           
         },
-        function(error) {
-            console.log("FAILED", error);
+        function(_error) {
+            alert('email not sent. Please try again');
+
         }
     );
-    return false;  // To block from loading a new page
+
+    return false;  // To block from loading a new 
+   
 }
