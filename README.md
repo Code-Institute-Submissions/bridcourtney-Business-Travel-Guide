@@ -2,7 +2,7 @@
 
 [View the live project here.]( https://bridcourtney.github.io/Business-Travel-Guide/)
 
-The Abbott Business Traveller Guide, will give Visitors immediate access to information and map location of all our Abbott Sites Accross the Globe.  The concept of the Intranet is to advance and build awareness of the business to which we all contribute to. 
+The Abbott Business Traveller Guide, will give Visitors immediate access to information and map location of all our Abbott Sites Accross the Globe.  The concept of the application is to advance and build awareness of the business to which we all contribute to. 
 
 The 'Contact Us' link will provide users an opportunity to provide feedback and suggestions.
 
@@ -28,19 +28,14 @@ It is designed to be responsive and accessible on a range of devices, making it 
     -   #### Typography.
         -   The 'Josefin Sans' font is the main font used throughout the whole website with sans-serif as the fallback font in case for             any reason the font isn't being imported into the site correctly. The 'Josefin Sans'gives the Site an unified appearance                    throughtout 
     -   #### Imagery
-        -   I selected imagery that was not posed or contrived. No images that are treated or stylized.  My images share a common thread                of humanity, greatness and authenticity. Images that depict- 
-           - ###### People living in the moment (person snowboarding on Montain Top, Girl Free Floating in water 'Contact Us' page).
-           - ###### People engaged in an activity (Cyclying Team).
-           - ###### Concepts that go beyond what is actually depicted (View blue sky through white Pergola).
-           - ###### Engaging scenery that entices the viewer (Satellite view of river delta).
+        -   I selected 
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](wireframes/Home_Page.pdf)
+    -   Index Page Wireframe - [View](Business-Travel-Guide_Lgr&Med_Devices.pdf)
 
-    -   Mobile Wireframe - [View](wireframes/Mobile.pdf)
+    -   Mobile / small device Wireframe - [View](Business-Travel-Guide_SM_Devices.pdf)
 
-    -   Contact Us Page Wireframe - [View](wireframes/Contact_Us.pdf)
 
 ## Features
 
