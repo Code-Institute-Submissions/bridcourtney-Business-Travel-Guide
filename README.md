@@ -93,8 +93,9 @@ The W3C Markup Validator, W3C CSS Validator and jshint Services were used to val
 -   [jshint](https://jshint.com/) 
 ### Test Script
 -   Link below is Test Script performed.
--   [TestScript](Test Scripts performed.docx) 
-        
+
+-   Test Scripts - [View](Test Scripts performed.docx)
+
 
      
 ### Further Testing
