@@ -8,6 +8,8 @@ const countryRestrict = { country: "us" };
 const MARKER_PATH =
   "https://developers.google.com/maps/documentation/javascript/images/marker_green";
 const hostnameRegexp = new RegExp("^https?://.+?/");
+
+//Country choice is default to all in #country.  #country dropdown is hidden in index.html
 const countries = {
   au: {
     center: { lat: -25.3, lng: 133.8 },
@@ -62,7 +64,8 @@ const countries = {
     zoom: 5
   }
 };
-
+//END - Country choice is default to all in #country.  #country dropdown is hidden in index.html
+//Initialize Map------------------------------------
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     zoom: 2,
@@ -88,17 +91,22 @@ function initMap() {
   autocomplete.addListener("place_changed", onPlaceChanged);
   // Add a DOM event listener to react when the user selects a country.
   document
+  //Country choice is default to all in #country.  #country dropdown is hidden in index.html
     .getElementById("country")
     .addEventListener("change", setAutocompleteCountry);
-
-  document.getElementById('submit').addEventListener('mouseover', function() {
+//END - Country choice is default to all in #country.  #country dropdown is hidden in index.html
+  
+//Reverse Geocode initiated on mouseover #submit---------------------------
+document.getElementById('submit').addEventListener('mouseover', function() {
       clearResults();
       clearMarkers();
+//Reverse Geocode from Google Developer---------------------------
     var geocoder = new google.maps.Geocoder;
     var infowindow = new google.maps.InfoWindow;
     geocodeLatLng(geocoder, map, infowindow);
   });
 }
+
 function geocodeLatLng(geocoder, map, infowindow) {
   const input = document.getElementById("latlng").value;
   const latlngStr = input.split(",", 2);
@@ -137,13 +145,12 @@ function onPlaceChanged() {
   if (place.geometry) {
     map.panTo(place.geometry.location);
     map.setZoom(15);
-    //search();
   } else {
     document.getElementById("autocomplete").placeholder = "Enter a city";
   }
 }
 
-
+//Nearby place type search by click---------------------------
 document.getElementById("hotel").addEventListener("click", function(){
 searchFor =['lodging'];
   search();
@@ -167,7 +174,7 @@ searchFor =['museum','bowling_alley'];
 
 });
 
-// Search for hotels in the selected city, within the viewport of the map.
+// Search for place type in the selected city, within the viewport of the map.
 function search() {
   const search = {
     bounds: map.getBounds(),
@@ -178,7 +185,7 @@ function search() {
       clearResults();
       clearMarkers();
 
-      // Create a marker for each hotel found, and
+      // Create a marker for each place type found, and
       // assign a letter of the alphabetic to each marker icon.
       for (let i = 0; i < results.length; i++) {
         const markerLetter = String.fromCharCode("A".charCodeAt(0) + (i % 26));
@@ -189,7 +196,7 @@ function search() {
           animation: google.maps.Animation.DROP,
           icon: markerIcon
         });
-        // If the user clicks a hotel marker, show the details of that hotel
+        // If the user clicks a place type marker, show the details of that place type
         // in an info window.
 
         markers[i].placeResult = results[i];
@@ -209,12 +216,11 @@ function clearMarkers() {
   }
   markers = [];
 }
-
-// Set the country restriction based on user input.
+//Country choice is default to all in #country.  #country dropdown is hidden in index.html
 // Also center and zoom the map on the given country.
 function setAutocompleteCountry() {
   const country = document.getElementById("country").value;
-
+//Country choice is default to all in #country.  #country dropdown is hidden in index.html
   if (country == "all") {
     autocomplete.setComponentRestrictions({ country: [] });
     map.setCenter({ lat: 15, lng: 0 });
@@ -227,7 +233,7 @@ function setAutocompleteCountry() {
   clearResults();
   clearMarkers();
 }
-
+//END - Country choice is default to all in #country.  #country dropdown is hidden in index.html
 function dropMarker(i) {
   return function() {
     markers[i].setMap(map);
@@ -266,8 +272,8 @@ function clearResults() {
   }
 }
 
-// Get the place details for a hotel. Show the information in an info window,
-// anchored on the marker for the hotel that the user selected.
+// Get the place details for a place type. Show the information in an info window,
+// anchored on the marker for the placetype that the user selected.
 function showInfoWindow() {
   const marker = this;
   places.getDetails(
@@ -298,8 +304,8 @@ function buildIWContent(place) {
     document.getElementById("iw-phone-row").style.display = "none";
   }
 
-  // Assign a five-star rating to the hotel, using a black star ('&#10029;')
-  // to indicate the rating the hotel has earned, and a white star ('&#10025;')
+  // Assign a five-star rating to the place type, using a black star ('&#10029;')
+  // to indicate the rating the place type has earned, and a white star ('&#10025;')
   // for the rating points not achieved.
   if (place.rating) {
     let ratingHtml = "";
