@@ -22,15 +22,16 @@ It is designed to be responsive and accessible on a range of devices, making it 
         
 -   ### Structure
     -   #### Multi Image Carousal
-        -   The multi image carousal improves the user experience as it allow the user to view site information and location on map without scrolling down.    
--   ### Design
+         -  By mousing over the Site Image the User instantly is shown the site information and location on map.  The User can then move on to the next location and new details are loaded
+           -   The multi image carousal improves the user experience as it allow the user to view site information and location on map without scrolling down.
+       -   ### Design
     -   #### Colour Scheme
         -   Color is fundamental in the way we express the Abbott brand. The color palette I used includes, Dark in the header and light in the footer of each page.  The                   vibrant images in the Abbott Site carousal blend well with the background image.
 
     -   #### Typography.
         -   The 'Josefin Sans' font is the main font used throughout the whole website with sans-serif as the fallback font in case for any reason the font isn't being imported into the site correctly. The 'Josefin Sans'gives the Site an unified appearance throughtout. 
-    -   #### Imagery
-        -   I selected vibrant images for each Site in the carousal that work well with the background image.
+    -   #### Imagery 
+        -   I selected vibrant images for each Site in the carousal that work well with the background image. 
 
 *   ### Skeleton.
 
@@ -164,21 +165,16 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly     to make site responsive using the Bootstrap Grid System.
 
 -   The Navbar code was taken from https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp, and taylored to meet my requirements
--   The Carousal code was taken from https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp, I added Captions to Slides and               taylored to meet my requirements 
--   I got idea for the rounded images and from the Code Institute page 'What our Graduates say' section, I wrote the code myself and            copied the css for images from the 'Whiskey Drop' tutorial
--  I copied code for the Modal Form from the Whiskey Drop lesson
--  I copied the script for the submit Alert on the CARE Program form https://www.codecademy.com/forum_questions/512d28a06918338f2300e9ea
--  I got $("#exampleInputEmail1").val(); from https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript,     then I was able to check if the email field was blank
--  In the Contact Us page I copied the Form element & associated CSS from 'Love Running' tutorial, and taylored to meet my requirements
+-   The Carousal code was taken from https://azmind.com/bootstrap-carousel-multiple-items/
+-   Geocode API https://developers.google.com/maps/documentation/javascript/examples/geocoding-reverse#maps_geocoding_reverse-javascript)
+-   Places API https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch#maps_places_autocomplete_hotelsearch-javascript
+
 
 ### Content
 
 -   All content was written by the developer.
 
 
-### Media
-
--   All the Carousal Images, Contact Us Background and the Abbott logo's were downloaded from the Abbott Branding SharePoint site
  
 ### Acknowledgements
 
