@@ -68,22 +68,23 @@ It is designed to be responsive and accessible on a range of devices, making it 
     - GIMP was used resizing images and editing photos for the website.
 7. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
-8. Places API
+8. [Places API:](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch#maps_places_autocomplete_hotelsearch-javascript)
     - Place Autocomplete Hotel Search Tutorial
 9. Maps JavaScript API
-10. Geocoding API
+10. [Geocoding API:](https://developers.google.com/maps/documentation/javascript/examples/geocoding-reverse#maps_geocoding_reverse-javascript)
     - Reverse Geocoding Tutorial
+11. [unsplash:](https://unsplash.com/)
+    - I used upsplash to find good quality images of countries and landmarks
 
 
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator, W3C CSS Validator and jshint Services were used to validate every page and js file of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results for Contact.html](Validation/Contact-Us-HTML_Validator.JPG)
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results for Index.html](Validation/Index-HTML_Validator.JPGValidation/Contact-Us-HTML_Validator.JPG)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results for Style.css](Validation/StyleCSS-Validator.JPG)
-
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+-   [jshint](https://jshint.com/) 
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
