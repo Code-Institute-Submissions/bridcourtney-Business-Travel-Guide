@@ -45,7 +45,8 @@
             <h2 id ="index-header">Abbott Travel Guide</h2>
             
                       <div class="row">
-                        
+                        <!--css, html & js for multiCarousal was copied from 'https://azmind.com/bootstrap-carousel-multiple-items/'
+-->
                           <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
                                 <div class="MultiCarousel-inner">
                                 <div id ="submit">   
@@ -98,22 +99,23 @@
                                     </div>
                                 </div>             
                             </div>
-                                <button class="btn btn-primary leftLst"><</button>
-                                <button class="btn btn-primary rightLst">></button>
+                                <button class="btn btn-primary leftLst">&lt;</button>
+                                <button class="btn btn-primary rightLst">&gt;</button>
                           </div>
                       
                     </div> 
                     </div>
+                    <!--This field is hidden used to pass in lat & lon values-->
                     <div id ="latlng-details">
                                     <input id="latlng" type="text" value="15,0" />
                              </div>
 
-        <div class ="search-city text-center">
-                <div class = "row">
-                         <div class="col">
-                                <input id="autocomplete" placeholder="Enter a city" type="text" />
-                         </div>                             
-                    </div>
+                    <div class ="search-city text-center">
+                            <div class = "row">
+                                    <div class="col">
+                                            <input id="autocomplete" placeholder="Enter a city" type="text" />
+                                    </div>                             
+                                </div>
                             <div class = "row text-center">
                                     <div class="col text-center">
                             
@@ -125,7 +127,7 @@
                                     </div>
                             </div>
                  </div>
-                            
+                            <!--Script to set lat & long value-->
                             <script>
                             function myFunction1() {
                             document.getElementById("latlng").value = "54.2778667, -8.4998002";
@@ -148,8 +150,8 @@
                             document.getElementById("latlng").value = "-22.8958242, -43.7197573";
                             }
                             </script>                            
-            </div>  
-                   
+             
+                        <!--This control is hidden and defaults to ALL-->
                                 <div id="controls">
                                     <select id="country">
                                     <option value="all" selected >All</option>
@@ -158,7 +160,7 @@
                                 
                                    
                                                 
-                </div>
+        </div>
             
             <div class= "map-container">
 
