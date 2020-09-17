@@ -1,47 +1,25 @@
 <h1 align="center">Abbott Business Traveller Guide</h1>
 
-[View the live project here.]( https://bridcourtney.github.io/project-1-employee-site-hub/)
+[View the live project here.]( https://bridcourtney.github.io/Business-Travel-Guide/)
 
-The ADD, Sligo Employee Intranet, will give Visitors immediate access to our internal business.  The concept of the Intranet is to advance and build awareness of the business to which we all contribute to. 
+The Abbott Business Traveller Guide, will give Visitors immediate access to information and map location of all our Abbott Sites Accross the Globe.  The concept of the Intranet is to advance and build awareness of the business to which we all contribute to. 
 
-The site will be hosted on SharePoint.  Each Department will have a page.  Department Page design will be streamlined and always carry the site header, footer and navigation Bar for consistency.  
-
-Business Teams will have the opportunity to host their SharePoint document Libraries & lists e.g the 'IDEA' & 'Good Catch' initiatives. The EHS, Risk Management and many more teams can share information and updates.  The Workspace dropdown will contain links to common applications, websites etc.  The 'Contact Us' link will provide users an opportunity to provide feedback and suggestions.
-
-The Sign Up button in the Site Vision area currently links to Our CARE Program, next month there will be a new promotion.  Once the User clicks on the submit button the SharePoint list for the particular promotion will be updated with the persons email. 
+The 'Contact Us' link will provide users an opportunity to provide feedback and suggestions.
 
 It is designed to be responsive and accessible on a range of devices, making it easy to navigate for employees.
 
-<h2 align="center"><img src="images/Responsive_ShowCase.png"></h2>
+
 
 ## User Experience (UX)
 
 -   ### User stories
 
-    -   #### New Visitor Goals
+    -   #### Visitor Goals
 
-        1. As a New Visitor, I want all my commonly used app links in one place a ‘Hub’, so much time will be saved
-        2. As a New Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        3. As a New Visitor, I want to be able to easily navigate throughout the site to find content.
-
-    -   #### Returning Visitor Goals
-
-        1. As a Returning Visitor, I want to update Teams files. Add that great Idea I have to the IDEA form, and maybe win some Time in            Lieu for my effort 
-        2.  As a Returning Visitor, I want to Sign Up to the latest HR Inititive e.g. CARE Program, Heart Foundation Presentation Sign              Up etc
-        
-        
-
-    -   #### Frequent User Goals
-        1. As a Frequent User, I want to check my Team files for new assignments and required approvals.
-        2. As a Frequent User, I want to check the EHS Page for Latest Covid 19 updates.
-        3. As a Frequent User, I want to submit Suggestion from the 'Contact Us' page
-        
-     
-    -   #### Intranet Owner Goals
-        1. As the Site Owner, I want to provide Employees with 'A Hub' to share information. 
-        2. As the Site Owner, I want the Site Vision and the Site Behavior displayed.  Also, information about the site 
+        1. As Visitor, I want to find the Abbot site I am visiting and learn more about the site e.g. is it Manufacturing, Commercial etc
+        2. As Visitor, I want to easily find out more about the area I am visiting e.g What Hotels, Restaurants and Attractions are in the vicinity
+        3. As Visitor, I want to be able to look for information from the Team managaging the Portal
        
-
 -   ### Design
     -   #### Colour Scheme
         -   Color is fundamental in the way we express the Abbott brand. The color palette I used includes, Dark Blue in the                           header and footer of each page.  I used Light Grey as a Neutral Colour in the 'What Our People say' section.  In the                     'Our Site' section I included Gold to give the Site energy.  I also used Gold for the 'CARE Program' button on the main                 Page for a splash of colour.
