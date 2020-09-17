@@ -13,7 +13,7 @@ background: url(../images/business-travel-bg.jpeg) no-repeat center center;
   background-size: cover;
 }
 
-
+/*NavBar Styling for both index and contact page*/
 #collapsibleNavbar a{
     color:white;
    
@@ -34,6 +34,10 @@ background: url(../images/business-travel-bg.jpeg) no-repeat center center;
 .nav-link {
 padding: 0;
 }
+
+/*END - NavBar Styling for both index and contact page*/
+
+/*Contact Page Styling*/
 
 .contact-container{
   height: 100%;
@@ -87,6 +91,10 @@ padding: 0;
   background-color: #fafafa;
   color: #f16c6b;
 }
+
+/*END - Contact Page Styling*/
+
+/*Index Page Styling*/
 
 #index-header{
     text-align: center;
@@ -153,8 +161,6 @@ padding: 0;
 .iw_table_icon {
   text-align: right;
 }
-
-
 
 .map-container{
     margin-top:1%;
@@ -230,6 +236,7 @@ padding: 0;
   width: fit-content;
 }
 
+/*Footer Styling on Index Page*/
 
 #my_footer {
 	width:100%;
@@ -240,6 +247,12 @@ padding: 0;
 	margin-top:10px;
 	margin-bottom:10px;
 }
+
+/*END - Footer Styling on Index Page*/
+
+/*Multicarousal styling on Index Page*/
+/* css, html & js for multicarousal was copied from 'https://azmind.com/bootstrap-carousel-multiple-items/'*/
+
  .MultiCarousel { 
     float: left; 
     overflow: hidden; 
@@ -279,3 +292,4 @@ padding: 0;
   pointer-events: none; 
   background:#ccc; 
 }
+/*END - Multicarousal styling on Index Page*/
