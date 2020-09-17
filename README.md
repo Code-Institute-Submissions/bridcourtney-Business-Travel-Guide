@@ -22,13 +22,12 @@ It is designed to be responsive and accessible on a range of devices, making it 
        
 -   ### Design
     -   #### Colour Scheme
-        -   Color is fundamental in the way we express the Abbott brand. The color palette I used includes, Dark Blue in the                           header and footer of each page.  I used Light Grey as a Neutral Colour in the 'What Our People say' section.  In the                     'Our Site' section I included Gold to give the Site energy.  I also used Gold for the 'CARE Program' button on the main                 Page for a splash of colour.
-            The Site Background colour is White, it acts like a blank stage that draws attention to the Site Content.  The vibrant                      color Gold, the imagery used and typography really ‘pop’ out against a white background.
+        -   Color is fundamental in the way we express the Abbott brand. The color palette I used includes, Dark in the header and light in the footer of each page.  The                   vibrant images in the Abbott Site carousal blend well with the background image.
 
     -   #### Typography.
-        -   The 'Josefin Sans' font is the main font used throughout the whole website with sans-serif as the fallback font in case for             any reason the font isn't being imported into the site correctly. The 'Josefin Sans'gives the Site an unified appearance                    throughtout 
+        -   The 'Josefin Sans' font is the main font used throughout the whole website with sans-serif as the fallback font in case for any reason the font isn't being imported into the site correctly. The 'Josefin Sans'gives the Site an unified appearance throughtout. 
     -   #### Imagery
-        -   I selected 
+        -   I selected vibrant images for each Site in the carousal that work well with the background image.
 
 *   ### Wireframes
 
@@ -49,30 +48,33 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   Small piece of Java Script for Validation of 'Submit' Comment on the 'Contact Us' page.  If the user does not enter their Email         address and they hit the 'Submit' button, they will get a message to fill in the Email field.  Once they fill in the Email field and        hit the 'Submit' button, User will receive a confirmation message.
+-   [JavaScript](https://www.javascript.com/)
+-   [jQuery](https://jqueryui.com)
+
 
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-2. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-3. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-4. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-5. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-6. [Git](https://git-scm.com/)
+2. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Josefin Sans' font into the style.css file which is used on all pages throughout the project.
+3. [jQuery:](https://jquery.com/)
+    - jQuery used to hide Site information on page open, and then mouseover & mouseout to show/hide
+4. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-7. [GitHub:](https://github.com/)
+5. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-8. [GIMP:](https://developer.gimp.org/)
+6. [GIMP:](https://developer.gimp.org/)
     - GIMP was used resizing images and editing photos for the website.
-9. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
-10. Microsoft Paint
-    - Paint was used to create the image about displaying the responsiveness of the Site 
+7. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design process.
+8. Places API
+    - Place Autocomplete Hotel Search Tutorial
+9. Maps JavaScript API
+10. Geocoding API
+    - Reverse Geocoding Tutorial
+
+
 
 ## Testing
 
