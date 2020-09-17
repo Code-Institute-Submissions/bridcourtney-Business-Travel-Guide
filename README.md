@@ -1,4 +1,4 @@
-<h1 align="center">ADD, Sligo Intranet</h1>
+<h1 align="center">Abbott Business Traveller Guide</h1>
 
 [View the live project here.]( https://bridcourtney.github.io/project-1-employee-site-hub/)
 
