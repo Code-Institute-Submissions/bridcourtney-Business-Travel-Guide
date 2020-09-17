@@ -19,7 +19,10 @@ It is designed to be responsive and accessible on a range of devices, making it 
         1. As Visitor, I want to find the Abbot site I am visiting and learn more about the site e.g. is it Manufacturing, Commercial etc
         2. As Visitor, I want to easily find out more about the area I am visiting e.g What Hotels, Restaurants and Attractions are in the vicinity
         3. As Visitor, I want to be able to look for information from the Team managaging the Portal
-       
+        
+-   ### Structure
+    -   #### Multi Image Carousal
+        -   The multi image carousal improves the user experience as it allow the user to view site information and location on map without scrolling down.    
 -   ### Design
     -   #### Colour Scheme
         -   Color is fundamental in the way we express the Abbott brand. The color palette I used includes, Dark in the header and light in the footer of each page.  The                   vibrant images in the Abbott Site carousal blend well with the background image.
@@ -29,7 +32,7 @@ It is designed to be responsive and accessible on a range of devices, making it 
     -   #### Imagery
         -   I selected vibrant images for each Site in the carousal that work well with the background image.
 
-*   ### Wireframes
+*   ### Skeleton.
 
     -   Index Page Wireframe - [View](Business-Travel-Guide_Lgr&Med_Devices.pdf)
 
@@ -75,6 +78,8 @@ It is designed to be responsive and accessible on a range of devices, making it 
     - Reverse Geocoding Tutorial
 11. [unsplash:](https://unsplash.com/)
     - I used upsplash to find good quality images of countries and landmarks
+12. [EmailJS:](https://www.emailjs.com/)
+    - In the Contact Us page I used EmailJS to Send Email Directly From JavaScript 
 
 
 
@@ -92,7 +97,8 @@ The W3C Markup Validator, W3C CSS Validator and jshint Services were used to val
 
      
 ### Further Testing
--   During testing it was found that when the page loaded first Geocoding erro.
+-   During testing it was found the 'Geocoder failed due to: INVALID_REQUEST' error was appearing on startup, to fix this I added a default value to #latlng.
+-   During testing users reported it was confusing that there was no response when Comment was submitted on Contact page, I fixed this by added a success and fail Alert.
 -   The Website was tested on Google Chrome, Internet Explorer & Microsoft Edge.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
@@ -100,6 +106,7 @@ The W3C Markup Validator, W3C CSS Validator and jshint Services were used to val
 
 ### Known Bugs
 
+-   Sometimes the user needs to hit the refresh button to load the map
 -   It is not a bug, but the Geocode API reaches usage limit very quckly
 
 ## Deployment
