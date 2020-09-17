@@ -1,3 +1,4 @@
+//Hiding site information when the page loads
 $(document).ready(function(){
   $('#site-info-1').hide();
   $('#site-info-2').hide();
@@ -7,6 +8,7 @@ $(document).ready(function(){
   $('#site-info-6').hide();
 });
 
+//Showing & Hiding site information on mouseover & mouseout
 $(".image-1").mouseover(function() { 
  $("#site-info-1").show(); 
 }); 
