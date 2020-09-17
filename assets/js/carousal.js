@@ -1,3 +1,5 @@
+// css, html & js for multiCarousal was copied from 'https://azmind.com/bootstrap-carousel-multiple-items/'
+
 $(document).ready(function () {
     var itemsMainDiv = ('.MultiCarousel');
     var itemsDiv = ('.MultiCarousel-inner');
