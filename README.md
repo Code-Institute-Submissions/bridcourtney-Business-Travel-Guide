@@ -80,57 +80,19 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 ## Testing
 
-The W3C Markup Validator, W3C CSS Validator and jshint Services were used to validate every page and js file of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator, W3C CSS Validator and jshint Services were used to validate every page and js files of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 -   [jshint](https://jshint.com/) 
-### Testing User Stories from User Experience (UX) Section
-
--   #### First Time Visitor Goals
-
-    1. As a New Visitor, I want all my commonly used app links in one place a ‘Hub’, so much time will be saved
-
-         1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page            of their choice.  In this case the user is looking for the Workspace Dropdwon that contains a list of commonly used apps &             websites
-
-    2. As a New Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-
-        1. The site contains the workplace Vision and Behaviours.  The 'Our Site' section give New visitor an overview of their new                   workplace
-
-    3. As a New Visitor, I want to be able to easily navigate throughout the site to find content.
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page            of their choice. Each page in the site will have an uniform header, footer and Navigation Bar that will intutively bring the User          where they wan to go
-
--   #### Returning Visitor Goals
-
-    1. As a Returning Visitor, I want to update Teams files. Add that great Idea I have to the IDEA form, and maybe win some Time in            Lieu for my effort 
-
-        1. All Team can be easily found under the Team dropdown
-      
-
-    2. As a Returning Visitor, I want to Sign Up to the latest HR Inititive e.g. CARE Program, Heart Foundation Presentation etc
-
-        1. Sign Up to various Initiatives will be available on the Home Page in the Our Vision section
-
-.
-
--   #### Frequent User Goals
-
-    1. As a Frequent User, I want to check the EHS Page for Latest Covid 19 updates.
-
-        1. The EHS Page will be available from the Navigation Bar with all the latest updates
-
-    2. As a Frequent User, I want to submit Suggestion from the 'Contact Us' page
-
-        1. Link to the Contact Us page is available from the Home Page, User can easily navigate bach to HomePage on completion
-
-    3. As a Frequent User, I want to check my Team files for new assignments and required approvals.
-    
-        1. Historically file e.g. excel etc were located on shared drives and updated by Team.  In Office 365 file sharing is not                   meeting Customer Satisfaction and has led to data loss.  Therefore SharePoint Document list and Library Webparts offers                 Teams a Safer more reliable altenative
+### Test Script
+-   Link below is Test Script performed.
+-   [TestScript](https://jshint.com/) 
         
 
      
 ### Further Testing
-
+-   During testing it was found that when the page loaded first Geocoding erro.
 -   The Website was tested on Google Chrome, Internet Explorer & Microsoft Edge.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
@@ -138,8 +100,7 @@ The W3C Markup Validator, W3C CSS Validator and jshint Services were used to val
 
 ### Known Bugs
 
--   On small mobile devices the vision container touches the top of the Navigation Bar.
--   In the Behaviours container I wanted to concatenate the Behaviour with the icon, I did not have time to complete this requirement.        Therefore on some screens the Behaviour may not have the icon beside it, because it is on the line above
+-   It is not a bug, but the Geocode API reaches usage limit very quckly
 
 ## Deployment
 
