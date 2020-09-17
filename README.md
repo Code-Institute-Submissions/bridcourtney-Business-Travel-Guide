@@ -93,10 +93,7 @@ The W3C Markup Validator, W3C CSS Validator and jshint Services were used to val
 -   [jshint](https://jshint.com/) 
 ### Test Script
 -   Link below is Test Script performed.
-
 -   Test Scripts - [View](Test Scripts performed.docx)
-
-
      
 ### Further Testing
 -   During testing it was found the 'Geocoder failed due to: INVALID_REQUEST' error was appearing on startup, to fix this I added a default value to #latlng.
