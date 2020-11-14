@@ -8,9 +8,9 @@ Abbott Laboratories is an American multinational medical devices and health care
 
 Abbott has over 160 office locations across 77 countries.  Employing over 100,00 people around the world.
 
+Business Travel frequency will depend on the employees position in the company.  It is highly probable that most employee will experience business travel as an Abbott Employee at some stage in their Abbott career e.g. when working on large projects across multiple sites, Training Courses etc.
 
-
-The concept of the application is to advance and build awareness of the business to which we all contribute to. 
+The 'Abbott Business Traveller Guide' will be a valuable resource to all employees that will provide an information bank on Abbott Site & locations.  For example you are with the Company 2 years, your Manager informs you of an opportinity to join a project that will involve a visit to Japan.  The Guide will provide you with site information as well as Hotels, Restaurants etc in the area  
 
 The 'Contact Us' link will provide users an opportunity to provide feedback and suggestions.
 
