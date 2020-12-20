@@ -96,8 +96,8 @@ function initMap() {
     .addEventListener("change", setAutocompleteCountry);
 //END - Country choice is default to all in #country.  #country dropdown is hidden in index.html
   
-//Reverse Geocode initiated on mouseover #submit---------------------------
-document.getElementById('submit').addEventListener('mouseover', function() {
+//Reverse Geocode initiated onclick #submit---------------------------
+document.getElementById('submit').addEventListener('click', function() {
       clearResults();
       clearMarkers();
 //Reverse Geocode from Google Developer---------------------------
