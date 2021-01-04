@@ -150,7 +150,7 @@ font-size: 150%;
 .listing {
   position: absolute;
   width: 200px;
-  height: 470px;
+  height: 400px;
   overflow: auto;
   top: 0%;
   cursor: pointer;
