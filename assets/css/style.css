@@ -122,9 +122,9 @@ font-size: 150%;
 }
 
 .btn-group{
-  padding:2% 2% 2% 2%;
+  margin-top: 1%;
   font-size: 100%;
-  height: 80px;   
+  height: 50px;   
 }
 
 .btn-main { 
@@ -138,7 +138,10 @@ font-size: 150%;
  font-weight: bold; 
 } 
 
-
+.site-details{
+    background-color: #ccc;
+    width: 100%;
+}
 #map {
   height: 400px;
   width: 100%;
@@ -167,7 +170,7 @@ font-size: 150%;
 
 #resultsTable {
   border-collapse: collapse;
-  width: 240px;
+  width: 270px;
 }
 
 #rating {

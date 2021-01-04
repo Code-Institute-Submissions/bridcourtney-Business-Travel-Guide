@@ -51,9 +51,9 @@
                                     Ireland
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                       <a class="dropdown-item" href="#" data-toggle="modal" data-target="#mapModal" onclick="myFunction1()">Action</a>
-                                       <a class="dropdown-item" href="#" data-toggle="modal" data-target="#mapModal" onclick="myFunction2()">Another action</a>
-                                       <a class="dropdown-item" href="#" data-toggle="modal" data-target="#mapModal" onclick="myFunction3()">Something else here</a>
+                                       <a class="dropdown-item" href="#" data-toggle="modal" data-target="#mapModal" onclick="myFunction1()">Sligo</a>
+                                       <a class="dropdown-item" href="#" data-toggle="modal" data-target="#mapModal" onclick="myFunction1()">Another action</a>
+                                       <a class="dropdown-item" href="#" data-toggle="modal" data-target="#mapModal" onclick="myFunction1()">Something else here</a>
                                     </div>
                                  </div>
                               </div>
@@ -114,65 +114,86 @@
     
          <!--This field is hidden used to pass in lat & lon values-->
          <div id="latlng-details">
-            <input id="latlng" type="text" value="15,0" />
+            <input id="latlng" type="text" value="15,0" />  
          </div>
          
+        
       <!-- Map Modal -->
       <div class="modal fade" id="mapModal" tabindex="-1" role="dialog">
          <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">View Site on map</h5>
+                  <h5 class="modal-title" id="exampleModalLongTitle">View Site infomation & amenities nearby</h5>
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                </div>
                <div class="modal-body">
+                   <div class="row">
+                        <div class="col-md-3 site-details">
+                                <img id="site-img" src="assets/images/paris.jpg" width="140" height="98">
+                            </div>
+                        <div class="col-md-9 site-details">
+                            <table>
+                                            <tr id="name-row" class="iw_table_row">
+                                            <td class="iw_attribute_name">Site Name:</td>
+                                            <td><output id="site-name"></output></td>
+                                            </tr>
+                                            <tr id="site-address-row" class="iw_table_row">
+                                            <td class="iw_attribute_name">Address:</td>
+                                            <td><output id="site-address"></output></td>
+                                            </tr>
+                                        </table>
+                            </div>
+                    </div>
+                    <div class="col text-center">
+                                    <div class="btn-group btn-secondary" role="group" aria-label="Basic example">
+                                    <button type="button" id="hotel" class="btn btn-main"><i class="fas fa-bed"></i> Hotels</button>
+                                    <button type="button" id="sights" class="btn btn-main"><i class="fas fa-landmark"></i> Attractions</button>
+                                    <button type="button" id="food" class="btn btn-main"><i class="fas fa-utensils"></i> Restaurants</button>
+                                    </div>
+                                </div>
+                </div>
                   <div class="row text-center">
-                     <div class="col text-center">
-                        <h4>instructions</h4>
-                        <div class="btn-group btn-primary" role="group" aria-label="Basic example">
-                           <button type="button" id="hotel" class="btn btn-main"><i class="fas fa-bed"></i> Hotels</button>
-                           <button type="button" id="sights" class="btn btn-main"><i class="fas fa-landmark"></i> Attractions</button>
-                           <button type="button" id="food" class="btn btn-main"><i class="fas fa-utensils"></i> Restaurants</button>
+                        <div class="col-md-8">
+                                <div id="map"></div> 
+                        </div>                       
+                            <div class="col-md-4">
+                                <div class="listing">
+                                    <table id="resultsTable">
+                                        <tbody id="results"></tbody>
+                                    </table>
+                                </div>
+                                <div style="display: none">
+                                    <div id="info-content">
+                                        <table>
+                                            <tr id="iw-url-row" class="iw_table_row">
+                                            <td id="iw-icon" class="iw_table_icon"></td>
+                                            <td id="iw-url"></td>
+                                            </tr>
+                                            <tr id="iw-address-row" class="iw_table_row">
+                                            <td class="iw_attribute_name">Address:</td>
+                                            <td id="iw-address"></td>
+                                            </tr>
+                                            <tr id="iw-phone-row" class="iw_table_row">
+                                            <td class="iw_attribute_name">Telephone:</td>
+                                            <td id="iw-phone"></td>
+                                            </tr>
+                                            <tr id="iw-rating-row" class="iw_table_row">
+                                            <td class="iw_attribute_name">Rating:</td>
+                                            <td id="iw-rating"></td>
+                                            </tr>
+                                            <tr id="iw-website-row" class="iw_table_row">
+                                            <td class="iw_attribute_name">Website:</td>
+                                            <td id="iw-website"></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-               </div>
-               <div id="map"></div>
-               <div class="listing">
-                  <table id="resultsTable">
-                     <tbody id="results"></tbody>
-                  </table>
-               </div>
-               <div style="display: none">
-                  <div id="info-content">
-                     <table>
-                        <tr id="iw-url-row" class="iw_table_row">
-                           <td id="iw-icon" class="iw_table_icon"></td>
-                           <td id="iw-url"></td>
-                        </tr>
-                        <tr id="iw-address-row" class="iw_table_row">
-                           <td class="iw_attribute_name">Address:</td>
-                           <td id="iw-address"></td>
-                        </tr>
-                        <tr id="iw-phone-row" class="iw_table_row">
-                           <td class="iw_attribute_name">Telephone:</td>
-                           <td id="iw-phone"></td>
-                        </tr>
-                        <tr id="iw-rating-row" class="iw_table_row">
-                           <td class="iw_attribute_name">Rating:</td>
-                           <td id="iw-rating"></td>
-                        </tr>
-                        <tr id="iw-website-row" class="iw_table_row">
-                           <td class="iw_attribute_name">Website:</td>
-                           <td id="iw-website"></td>
-                        </tr>
-                     </table>
-                  </div>
-               </div>
-            </div>
-        </div>
-      </div>
-    </div>
+                        </div>
+                    </div>
+                </div> 
       <div id="my_footer">
          <p id="copyright">Copyright Infomation</p>
       </div>

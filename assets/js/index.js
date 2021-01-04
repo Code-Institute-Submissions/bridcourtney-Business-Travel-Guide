@@ -1,6 +1,9 @@
 
 function myFunction1() {
-document.getElementById("latlng").value = "54.2778667, -8.4998002";
+document.getElementById("latlng").value = "54.278167, -8.497633";
+document.getElementById("site-img").src = "assets/images/a1.JPG";
+document.getElementById("site-name").value = "Abbott Ireland Diagnostics Limited";
+document.getElementById("site-address").value = "Finisklin Business Park, Sligo";
                             }
  function myFunction2() {
     document.getElementById("latlng").value = "50.041761,8.3532641";

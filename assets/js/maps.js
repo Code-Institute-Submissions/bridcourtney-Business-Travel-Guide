@@ -8,6 +8,7 @@ const MARKER_PATH =
 const hostnameRegexp = new RegExp("^https?://.+?/");
 
 
+
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     zoom: 2,
@@ -51,8 +52,7 @@ function geocodeLatLng(geocoder, map, infowindow) {
           map: map,
           
         });
-        infowindow.setContent(results[0].formatted_address);
-        infowindow.open(map, marker);
+        
       } else {
         window.alert("No results found");
       }
