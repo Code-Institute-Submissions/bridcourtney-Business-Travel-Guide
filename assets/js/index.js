@@ -1,22 +1,20 @@
 
-function myFunction1() {
+function mySligo() {
 document.getElementById("latlng").value = "54.278167, -8.497633";
-document.getElementById("site-img").src = "assets/images/a1.JPG";
+document.getElementById("site-img").src = "assets/images/sites/sligo.JPG";
 document.getElementById("site-name").value = "Abbott Ireland Diagnostics Limited";
 document.getElementById("site-address").value = "Finisklin Business Park, Sligo";
                             }
- function myFunction2() {
-    document.getElementById("latlng").value = "50.041761,8.3532641";
+ function myCavan() {
+document.getElementById("latlng").value = "54.0825201,-7.0897349";
+document.getElementById("site-img").src = "assets/images/sites/cavan.jpg";
+document.getElementById("site-name").value = "ABBOTT Ireland Nutrition Division";
+document.getElementById("site-address").value = "Dromore West, Cootehill, Co. Cavan";
     }
-function myFunction3() {
-    document.getElementById("latlng").value = "19.062803, 72.7648663";
+function myTipperary() {
+document.getElementById("latlng").value = "52.3735187,-7.7227507";
+document.getElementById("site-img").src = "assets/images/sites/tipperary.jpg";
+document.getElementById("site-name").value = "Abbott Ireland Vascular Division";
+document.getElementById("site-address").value = "Cashel Rd, Parknascaddane, Clonmel, Co. Tipperary";   
     }
-function myFunction4() {
-    document.getElementById("latlng").value = "42.3001635, -87.8930871";
-    }
-function myFunction5() {
-    document.getElementById("latlng").value = "48.8499675, 2.2019839";
-    }
-function myFunction6() {
-    document.getElementById("latlng").value = "-22.8958242, -43.7197573";
-    }                                                      
+                                                

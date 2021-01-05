@@ -116,6 +116,10 @@ padding: 0;
     padding: 1%;
 }
 
+.card{
+margin-top: 3%;
+text-align: center;
+}
 .dropdown-toggle{
 color: white;
 font-size: 150%;
