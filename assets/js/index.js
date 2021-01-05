@@ -17,4 +17,21 @@ document.getElementById("site-img").src = "assets/images/sites/tipperary.jpg";
 document.getElementById("site-name").value = "Abbott Ireland Vascular Division";
 document.getElementById("site-address").value = "Cashel Rd, Parknascaddane, Clonmel, Co. Tipperary";   
     }
-                                                
+function myMumbai() {
+document.getElementById("latlng").value = "19.054726,72.8848073";
+document.getElementById("site-img").src = "assets/images/sites/tipperary.jpg";
+document.getElementById("site-name").value = "Abbott Diabetes Care";
+document.getElementById("site-address").value = "Swastik Park, Chembur, Mumbai, Maharashtra, India";   
+    } 
+function myWiesbaden() {
+document.getElementById("latlng").value = "50.0417644,8.3532641";
+document.getElementById("site-img").src = "assets/images/sites/wiesbaden.jpg";
+document.getElementById("site-name").value = "Abbott GmbH";
+document.getElementById("site-address").value = "Max-Planck-Ring, Wiesbaden, Germany";   
+    }
+function myWetzlar() {
+document.getElementById("latlng").value = "50.5508336,8.521529";
+document.getElementById("site-img").src = "assets/images/sites/wetzlar.jpg";
+document.getElementById("site-name").value = "Abbott Vascular Germany GmbH";
+document.getElementById("site-address").value = "Wetzlar, Germany";   
+    }                                              

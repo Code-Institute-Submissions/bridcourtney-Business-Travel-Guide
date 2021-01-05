@@ -45,7 +45,8 @@ function geocodeLatLng(geocoder, map, infowindow) {
   geocoder.geocode({ location: latlng }, (results, status) => {
     if (status === "OK") {
       if (results[0]) {
-        map.setZoom(11);
+        map.setZoom(13);
+        //center the latlng location on the map
         map.setCenter(latlng);
         const marker = new google.maps.Marker({
           position: latlng,

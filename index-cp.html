@@ -43,10 +43,10 @@
                            <div class="card p-3">
                               <div class="card-body">
                                  <div class="dropdown show">
-                                    <a class="dropdown-toggle" href="#" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Ireland
                                     </a>
-                                    <div class="dropdown-menu">
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#mapModal" onclick="mySligo()">Sligo</a>
                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#mapModal" onclick="myCavan()">Cavan</a>
                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#mapModal" onclick="myTipperary()">Tipperary</a>
@@ -54,20 +54,6 @@
                                  </div>
                               </div>
                               <img class="card-img-top" src="assets/images/ire.jpg"  alt="Benbulben Mountain, Co. Sligo">
-                           </div>
-                              <div class="card p-3">
-                              <div class="card-body">
-                                 <div class="dropdown show">
-                                    <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Germany
-                                    </a>
-                                    <div class="dropdown-menu">
-                                       <a class="dropdown-item" href="#" data-toggle="modal" data-target="#mapModal" onclick="myWiesbaden()">Wiesbaden</a>
-                                       <a class="dropdown-item" href="#" data-toggle="modal" data-target="#mapModal" onclick="myWetzlar()">Wetzlar</a>
-                                    </div>
-                                 </div>
-                              </div>
-                              <img class="card-img-top" src="assets/images/german.jpg"  alt="German Castle">
                            </div>
                            <div class="card p-3">
                               <div class="card-body">
@@ -80,7 +66,42 @@
                                     </div>
                                  </div>
                               </div>
-                              <img class="card-img-top" src="assets/images/india.jpg"  alt="Indian Temple">
+                              <img class="card-img-top" src="assets/images/india.jpg"  alt="Benbulben Mountain, Co. Sligo">
+                           </div>
+                           <div class="card">
+                              <a href="#"><img class="card-img-top" src="assets/images/german.jpg" onclick="myFunction2()" alt="German Castle"></a>
+                              <div class="card-body">
+                                 <h5 class="card-title">Germany</h5>
+                                 <a href="#" data-toggle="modal" data-target="#exampleModalCenter" onclick="myFunction1()" class="btn btn-primary">Read More</a>
+                              </div>
+                           </div>
+                           <div class="card">
+                              <a href="#"><img class="card-img-top" src="assets/images/india.jpg" onclick="myFunction3()" alt="Indian Temple"></a>
+                              <div class="card-body">
+                                 <h5 class="card-title">India</h5>
+                                 <a href="#" class="btn btn-primary">Read More</a>
+                              </div>
+                           </div>
+                           <div class="card">
+                              <a href="#"><img class="card-img-top" src="assets/images/chicago.jpg" onclick="myFunction4()" alt="Chicago 'The Bean' landmark"></a>
+                              <div class="card-body">
+                                 <h5 class="card-title">U.S.A</h5>
+                                 <a href="#" class="btn btn-primary">Read More</a>
+                              </div>
+                           </div>
+                           <div class="card">
+                              <a href="#"><img class="card-img-top" src="assets/images/paris.jpg" onclick="myFunction5()" alt="Paris 'Eiffel Tower' landmark"></a>
+                              <div class="card-body">
+                                 <h5 class="card-title">France</h5>
+                                 <a href="#" class="btn btn-primary">Read More</a>
+                              </div>
+                           </div>
+                           <div class="card">
+                              <a href="#"><img class="card-img-top" src="assets/images/rio.jpg" onclick="myFunction6()" alt="Rio de Janeiro"></a>
+                              <div class="card-body">
+                                 <h5 class="card-title">Brazil</h5>
+                                 <a href="#" class="btn btn-primary">Read More</a>
+                              </div>
                            </div>
                         </div>
                      </div>
