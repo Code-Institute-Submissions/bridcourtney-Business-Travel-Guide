@@ -213,7 +213,9 @@ padding-right: 0%;
 /*Footer Styling on Index Page*/
 
 #my_footer {
-	width:100%;
+    background-color: rgb(37, 37, 32);
+    width:100%;
+    color: white;
 	text-align: center;
 }
 
