@@ -47,3 +47,9 @@ document.getElementById("site-img").src = "assets/images/sites/santaclara.jpg";
 document.getElementById("site-name").value = "Abbott Diagnostics";
 document.getElementById("site-address").value = "Great America Parkway, Santa Clara, CA, USA";   
     }  
+function myParis() {
+document.getElementById("latlng").value = "48.7481517,2.3524041";
+document.getElementById("site-img").src = "assets/images/sites/paris.jpg";
+document.getElementById("site-name").value = "Abbott France Diabetes Care";
+document.getElementById("site-address").value = "3 Place Gustave Eiffel, 94518 Rungis, France";   
+    } 
