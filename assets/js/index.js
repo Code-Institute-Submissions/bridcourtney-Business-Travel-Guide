@@ -53,3 +53,10 @@ document.getElementById("site-img").src = "assets/images/sites/paris.jpg";
 document.getElementById("site-name").value = "Abbott France Diabetes Care";
 document.getElementById("site-address").value = "3 Place Gustave Eiffel, 94518 Rungis, France";   
     } 
+
+function myRio() {
+document.getElementById("latlng").value = "-22.9100942,-43.6982898";
+document.getElementById("site-img").src = "assets/images/sites/rio.jpg";
+document.getElementById("site-name").value = "Abbott Rio de Janeiro";
+document.getElementById("site-address").value = "Estr. dos Bandeirantes, 2400 - Taquara, Rio de Janeiro, Brazil";   
+    } 
