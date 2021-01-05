@@ -99,11 +99,10 @@ background-image: radial-gradient(rgba(249, 238, 238, 0.91),
 .index-header{
     text-align: center;
     color:black;
-    padding-top:3%;
+    padding-top:5%;
 }
 .instructions{
-  
-  text-align: center;
+  padding-top: 1%;
   color:black;
    }
 .card-body{
