@@ -34,4 +34,16 @@ document.getElementById("latlng").value = "50.5508336,8.521529";
 document.getElementById("site-img").src = "assets/images/sites/wetzlar.jpg";
 document.getElementById("site-name").value = "Abbott Vascular Germany GmbH";
 document.getElementById("site-address").value = "Wetzlar, Germany";   
-    }                                              
+    }                                             
+function myChicago() {
+document.getElementById("latlng").value = "42.2508887,-87.898736";
+document.getElementById("site-img").src = "assets/images/sites/abbottlabs.jpg";
+document.getElementById("site-name").value = "Abbott Diagnostics Division";
+document.getElementById("site-address").value = "675 North Field Drive Lake Forest, IL 60045";   
+    }  
+function mySantaClara() {
+document.getElementById("latlng").value = "37.3952337,-121.9793666";
+document.getElementById("site-img").src = "assets/images/sites/santaclara.jpg";
+document.getElementById("site-name").value = "Abbott Diagnostics";
+document.getElementById("site-address").value = "Great America Parkway, Santa Clara, CA, USA";   
+    }  
