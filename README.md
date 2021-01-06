@@ -2,7 +2,9 @@
 
 [View the live project here.]( https://bridcourtney.github.io/Business-Travel-Guide/)
 
-The Abbott Business Traveller Guide, will give Visitors immediate access to information and map location of all our Abbott Sites Accross the Globe.  
+<h2 align="center"><img src="assets/images/responsive.JPG"></h2>
+
+The Abbott Business Traveller Guide, will give Visitors immediate access to information and map location to a pilot group of Abbott Sites Accross the Globe.  
 
 Abbott Laboratories is an American multinational medical devices and health care company with headquarters in Abbott Park, Illinois, United States. The company was founded by Chicago physician Wallace Calvin Abbott in 1888.  Today, it sells medical devices, diagnostics, branded generic medicines and nutritional products.
 
@@ -10,49 +12,108 @@ Abbott has over 160 office locations across 77 countries.  Employing over 100,00
 
 Business Travel frequency will depend on the employees position in the company.  It is highly probable that most employee will experience business travel as an Abbott Employee at some stage in their Abbott career e.g. when working on large projects across multiple sites, Training Courses etc.
 
-The 'Abbott Business Traveller Guide' will be a valuable resource to all employees that will provide an information bank on Abbott Site & locations.  For example you are with the Company 2 years, your Manager informs you of an opportinity to join a project that will involve a visit to Japan.  The Guide will provide you with site information as well as Hotels, Restaurants etc in the area  
+The 'Abbott Business Traveller Guide' will be a valuable resource to all employees that will provide an information bank on Abbott Site & locations.  For example you are with the Company 2 years, your Manager informs you of an opportinity to join a project that will involve a visit to Brazil.  The Guide will provide you with site information as well as Hotels, Restaurants etc in the area  
 
 The 'Contact Us' link will provide users an opportunity to provide feedback and suggestions.
 
-It is designed to be responsive and accessible on a range of devices, making it easy to navigate for employees.
+# User Experience (UX)
 
+-   ## Goals
 
+    -   ### Visitor Goals
 
-## User Experience (UX)
+        The central target audience for Business Travel Guide is:
+        - All Employees
+        - All Contactors 
+ 
+       User Goals are:
+      - View the site I am visiting on a map
+      - View the site amenities nearby
 
--   ### User stories
+-   ## User stories
 
-    -   #### Visitor Goals
+    -   #### Visitor Stories
 
-        1. As Visitor, I want to find the Abbot site I am visiting and learn more about the site e.g. is it Manufacturing, Commercial etc
-        2. As Visitor, I want to easily find out more about the area I am visiting e.g What Hotels, Restaurants and Attractions are in the vicinity
-        3. As Visitor, I want to be able to look for information from the Team managaging the Portal
+        1. As Visitor, I want to easily find out more about the area I am visiting e.g what Hotels, Restaurants and Attractions are in the vicinity
+        2. As Visitor, I want to be able to look for information from the Team managaging the Portal
+        3. As Visitor, I can learn about Abbott sites around the Globe 
         
--   ### Structure
-    -   #### Multi Image Carousal
-         -  By mousing over the Site Image the User instantly is shown the site information and location on map.  The User can then move on to the next location and new details are loaded
-           -   The multi image carousal improves the user experience as it allow the user to view site information and location on map without scrolling down.
-       -   ### Design
+-   ## Design Choices
+
     -   #### Colour Scheme
-        -   Color is fundamental in the way we express the Abbott brand. The color palette I used includes, Dark in the header and light in the footer of each page.  The                   vibrant images in the Abbott Site carousal blend well with the background image.
+        -   Color is fundamental in the way we express the Abbott brand. The color palette I used includes, Dark in the header & footer.  The vibrant images for each Country         Card blend well with the background image.
 
     -   #### Typography.
-        -   The 'Josefin Sans' font is the main font used throughout the whole website with sans-serif as the fallback font in case for any reason the font isn't being imported into the site correctly. The 'Josefin Sans'gives the Site an unified appearance throughtout. 
+        -   The 'Trebuchet MS' font is the main font used throughout the whole website. The 'Trebuchet MS'gives the Site an unified appearance throughtout. 
+        
     -   #### Imagery 
-        -   I selected vibrant images for each Site in the carousal that work well with the background image. 
+        -   I selected vibrant images for each Country Card that work well with the header image. 
 
-*   ### Skeleton.
+-   ## Skeleton
 
     -   Index Page Wireframe - [View](Business-Travel-Guide_Lgr&Med_Devices.pdf)
 
     -   Mobile / small device Wireframe - [View](Business-Travel-Guide_SM_Devices.pdf)
 
+# Features
 
-## Features
+-   ## Navbar
 
--   Responsive on all device sizes
+    The navigation bar features the Abbott logo in the top left corner also a link to the Contact Us page.
 
--   Interactive elements
+-   ## Country Cards
+
+    Each Country featured has a card with a relevant picture for the country.  Each Country will have a dropdown containing the list of sites available.  
+    Step 1, instructs the user to "Select Abbott Site from the Country dropdowns to view on map" -
+    
+    <h5 align="center"><img src="assets/images/step1.JPG"></h5>
+   
+    Once User selects the site they are visiting, the site information is displayed.  The site is displayed on the map.  
+    The site location is set to the center of the map.
+    
+    <h2 align="center"><img src="assets/images/step1-result.JPG"></h2>
+    
+    STEP 2, the User can view details of the amenities in the vicinity of the site by selecting the Hotels, Restaurants & Attractions buttons. The map then displays markers       for all of the amenities returned in a table, with on-click details for each amenity.
+    
+    <h2 align="center"><img src="assets/images/step2.JPG"></h2>
+    
+    To close the Map & Amenities form, the User can click on the 'Close' Button or simply click outside of the modal form
+    
+    <h2 align="center"><img src="assets/images/close.JPG"></h2>
+
+-   ## 'Contact Us' form
+    
+    The link to 'Contact Us' form is available in the top right corner of the main page.  User must provide name, email address and add a comment.  User will not be allowed        submit form until all fields are completed.  
+    On successful completion user will see a message of success and once they click ok, the user will to redirected to Home Page. 
+    
+     <h2 align="center"><img src="assets/images/contact.JPG"></h2>
+     
+# Testing
+
+-   ## Test Plan
+
+    The application was tested end to end with objective evidence provided for successful execution.  All requirement functionality was tested and objective evidence of each     test script attached.  Please view the Executed Test Protocol in link below - 
+
+ -   Executed Test Protocol - [View](Test_Protocol/Test_Scripts_performed.pdf)
+
+# Validators
+
+## Html
+
+All the HTML files were tested through W3C Markup Validation Service. I was able to correct all findings.
+
+## CSS
+
+CSS files were tested through W3C CSS Validation Service. I was able to correct all findings.
+
+## JavaScript
+
+Script files were tested through W3C CSS Validation Service. I was able to correct all findings.
+
+# Compatibility and Responsiveness
+
+ I used the Google Chrome's developer tools to see how it looks across all the different device screen sizes to ensure compatibility and responsiveness.
+ I also used Am I Responsive online tool for checking responsiveness on different devices.
 
 ## Technologies Used
 
