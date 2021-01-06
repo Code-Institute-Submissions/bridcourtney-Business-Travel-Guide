@@ -92,14 +92,14 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
 
 -   ## Test Plan
 
-    The application was tested end to end.  All requirement functionality was tested and objective evidence of each     test script attached.  Please view the Executed Test       Protocol in link below - 
+    The application was tested end to end.  All requirement functionality was tested and objective evidence of each test script attached.  Please view the Executed Test       Protocol in link below - 
 
  -   Executed Test Protocol - [View](Test_Protocol/Test_Scripts_performed.pdf)
  
  -   ## Compatibility and Responsiveness
  
-    I used the Google Chrome's developer tools to see how it looks across all the different device screen sizes to ensure compatibility and responsiveness.
-    I also used Am I Responsive online tool for checking responsiveness on different devices.
+     I used the Google Chrome's developer tools to see how it looks across all the different device screen sizes to ensure compatibility and responsiveness.
+     I also used Am I Responsive online tool for checking responsiveness on different devices.
    
 -   ## Further Testing
 
