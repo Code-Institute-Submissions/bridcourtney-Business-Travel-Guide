@@ -2,7 +2,7 @@
 
 [View the live project here.]( https://bridcourtney.github.io/Business-Travel-Guide/)
 
-<h2 align="center"><img src="assets/images/responsive.jpg"></h2>
+<h2 align="center"><img src="assets/images/responsive.JPG"></h2>
 
 The Abbott Business Traveller Guide, will give Visitors immediate access to information and map location of all our Abbott Sites Accross the Globe.  
 
