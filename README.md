@@ -99,7 +99,7 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
  -   ## Compatibility and Responsiveness
  
     I used the Google Chrome's developer tools to see how it looks across all the different device screen sizes to ensure compatibility and responsiveness.
-   I also used Am I Responsive online tool for checking responsiveness on different devices.
+    I also used Am I Responsive online tool for checking responsiveness on different devices.
    
 -   ## Further Testing
 
