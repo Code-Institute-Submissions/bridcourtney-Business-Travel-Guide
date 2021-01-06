@@ -4,7 +4,7 @@
 
 <h2 align="center"><img src="assets/images/responsive.JPG"></h2>
 
-The Abbott Business Traveller Guide, will give Visitors immediate access to information and map location of our Abbott Sites Accross the Globe.  
+The Abbott Business Traveller Guide, will give Visitors immediate access to information and map location to a pilot group of Abbott Sites Accross the Globe.  
 
 Abbott Laboratories is an American multinational medical devices and health care company with headquarters in Abbott Park, Illinois, United States. The company was founded by Chicago physician Wallace Calvin Abbott in 1888.  Today, it sells medical devices, diagnostics, branded generic medicines and nutritional products.
 
@@ -36,6 +36,7 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
 
         1. As Visitor, I want to easily find out more about the area I am visiting e.g what Hotels, Restaurants and Attractions are in the vicinity
         2. As Visitor, I want to be able to look for information from the Team managaging the Portal
+        3. As Visitor, I can learn about Abbott sites around the Globe 
         
 -   ## Design Choices
 
@@ -46,7 +47,7 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
         -   The 'Trebuchet MS' font is the main font used throughout the whole website. The 'Trebuchet MS'gives the Site an unified appearance throughtout. 
         
     -   #### Imagery 
-        -   I selected vibrant images for each Country that work well with the background image. 
+        -   I selected vibrant images for each Country Card that work well with the header image. 
 
 -   ## Skeleton
 
@@ -62,15 +63,17 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
 
 -   ## Country Cards
 
-    Each Country featured has a card with a relevant picture for the country.  Each Country will have a dropdown containing the list of sites available.  Step 1, instructs        the user to "Select Abbott Site from the Country dropdowns to view on map" -
+    Each Country featured has a card with a relevant picture for the country.  Each Country will have a dropdown containing the list of sites available.  
+    Step 1, instructs the user to "Select Abbott Site from the Country dropdowns to view on map" -
     
     <h5 align="center"><img src="assets/images/step1.JPG"></h5>
    
-    Once User selects the site they are visiting, the site information is displayed.  The site is displayed on the map.  The site location is set to the center of the map.
+    Once User selects the site they are visiting, the site information is displayed.  The site is displayed on the map.  
+    The site location is set to the center of the map.
     
     <h2 align="center"><img src="assets/images/step1-result.JPG"></h2>
     
-    STEP 2, the User can view details of the amenities in the vicinity of the site by selecting the Hotels, Restaurants & Attractions buttons. The map then displays markers       for all of the amenities returned, with on-click details for each amenity.
+    STEP 2, the User can view details of the amenities in the vicinity of the site by selecting the Hotels, Restaurants & Attractions buttons. The map then displays markers       for all of the amenities returned in a table, with on-click details for each amenity.
     
     <h2 align="center"><img src="assets/images/step2.JPG"></h2>
     
@@ -87,7 +90,7 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
      
 # Testing
 
-The application was tested heavily.  All requirement functionality was tested and objective evidence of each test script attached.  Please view the Executed Test Protocol in link below - 
+    The application was tested end to end with objective evidence provided for successful execution.  All requirement functionality was tested and objective evidence of each      test script attached.  Please view the Executed Test Protocol in link below - 
 
  -   Executed Test Protocol - [View](Test_Protocol/Test_Scripts_performed.pdf)
 
@@ -95,7 +98,7 @@ The application was tested heavily.  All requirement functionality was tested an
 
 ## Html
 
-All the HTML files were tested through W3C Markup Validation Service. I used the 'view page source' option, since W3C Markup Validation Service does not recognize Jinja2 templating language.  I was able to correct all findings.
+All the HTML files were tested through W3C Markup Validation Service. I was able to correct all findings.
 
 ## CSS
 
