@@ -56,8 +56,10 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 -   ## Country Cards
 
-    Each Country featured has a card with a relevant picture for the country.  Each Country will have a dropdown containing the list of sites available.  Step 1, instructs        the user to "Select Abbott Site from the Country dropdowns to view on map"
-    [View](assets/images/step1.JPG)
+    Each Country featured has a card with a relevant picture for the country.  Each Country will have a dropdown containing the list of sites available.  Step 1, instructs        the user to "Select Abbott Site from the Country dropdowns to view on map" -
+    
+    <h2 align="center"><img src="assets/images/step1.JPG"></h2>
+   
 
 ## Technologies Used
 
