@@ -92,9 +92,24 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
 
 -   ## Test Plan
 
-    The application was tested end to end with objective evidence provided for successful execution.  All requirement functionality was tested and objective evidence of each     test script attached.  Please view the Executed Test Protocol in link below - 
+    The application was tested end to end.  All requirement functionality was tested and objective evidence of each     test script attached.  Please view the Executed Test Protocol in link below - 
 
  -   Executed Test Protocol - [View](Test_Protocol/Test_Scripts_performed.pdf)
+ 
+
+-   ## Further Testing
+
+-   During testing it was found the 'Geocoder failed due to: INVALID_REQUEST' error was appearing on startup, to fix this I added a default value to #latlng.
+-   During testing users reported it was confusing that there was no response when Comment was submitted on Contact page, I fixed this by added a success and fail Alert.
+-   The Website was tested on Google Chrome, Internet Explorer & Microsoft Edge.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+
+-   ## Known Bugs
+-   Sometimes the user needs to hit the refresh button to load the map
+
 
 # Validators
 
@@ -108,24 +123,31 @@ CSS files were tested through W3C CSS Validation Service. I was able to correct 
 
 ## JavaScript
 
-Script files were tested through W3C CSS Validation Service. I was able to correct all findings.
+Script files were tested through jshint Validation Service. I was able to correct all findings.
 
 # Compatibility and Responsiveness
 
  I used the Google Chrome's developer tools to see how it looks across all the different device screen sizes to ensure compatibility and responsiveness.
  I also used Am I Responsive online tool for checking responsiveness on different devices.
 
-## Technologies Used
+# Technology Used
+ - GitPod - an online IDE for developing this project.
+ - Git - for version control.
+ - GitHub - for remotely storing project's code.
+ - GIMP2 - for editing images.
+ - Am I Responsive - for creation of the images in the readme file and checking responsiveness.
+ 
+ ## Front-End
+ - HTML - to build the foundation of the project.
+ - CSS - to create custom styles.
 
-### Languages Used
-
+ ## Languages Used
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [JavaScript](https://www.javascript.com/)
 -   [jQuery](https://jqueryui.com)
 
-
-### Frameworks, Libraries & Programs Used
+## Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
@@ -150,33 +172,7 @@ Script files were tested through W3C CSS Validation Service. I was able to corre
     - I used upsplash to find good quality images of countries and landmarks
 12. [EmailJS:](https://www.emailjs.com/)
     - In the Contact Us page I used EmailJS to Send Email Directly From JavaScript 
-
-
-
-## Testing
-
-The W3C Markup Validator, W3C CSS Validator and jshint Services were used to validate every page and js files of the project to ensure there were no syntax errors in the project.
-
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
--   [jshint](https://jshint.com/) 
-### Test Script
--   Link below is Test Script performed.
--   Test Scripts - [View](Test Scripts performed.docx)
      
-### Further Testing
--   During testing it was found the 'Geocoder failed due to: INVALID_REQUEST' error was appearing on startup, to fix this I added a default value to #latlng.
--   During testing users reported it was confusing that there was no response when Comment was submitted on Contact page, I fixed this by added a success and fail Alert.
--   The Website was tested on Google Chrome, Internet Explorer & Microsoft Edge.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
-
-### Known Bugs
-
--   Sometimes the user needs to hit the refresh button to load the map
--   It is not a bug, but the Geocode API reaches usage limit very quckly
-
 ## Deployment
 
 ### GitHub Pages
