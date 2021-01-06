@@ -105,11 +105,11 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
 
 -   During testing it was found the 'Geocoder failed due to: INVALID_REQUEST' error was appearing on startup, to fix this I added a default value to #latlng.
 -   During testing users reported it was confusing that there was no response when Comment was submitted on Contact page, I fixed this by added a success and fail Alert.
--   The Website was tested on Google Chrome, Internet Explorer & Microsoft Edge.
+-   The Website was tested on Google Chrome, Internet Explorer & Microsoft Edge.  
 
 -   ## Known Bugs
 -   Sometimes the user needs to hit the refresh button to load the map
-
+-   Map does not load consistently in Internet Explorer
 
 # Validators
 
