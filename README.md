@@ -92,20 +92,20 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
 
 -   ## Test Plan
 
-    The application was tested end to end.  All requirement functionality was tested and objective evidence of each     test script attached.  Please view the Executed Test Protocol in link below - 
+    The application was tested end to end.  All requirement functionality was tested and objective evidence of each     test script attached.  Please view the Executed Test       Protocol in link below - 
 
  -   Executed Test Protocol - [View](Test_Protocol/Test_Scripts_performed.pdf)
  
-
+ -   ## Compatibility and Responsiveness
+ 
+    I used the Google Chrome's developer tools to see how it looks across all the different device screen sizes to ensure compatibility and responsiveness.
+   I also used Am I Responsive online tool for checking responsiveness on different devices.
+   
 -   ## Further Testing
 
 -   During testing it was found the 'Geocoder failed due to: INVALID_REQUEST' error was appearing on startup, to fix this I added a default value to #latlng.
 -   During testing users reported it was confusing that there was no response when Comment was submitted on Contact page, I fixed this by added a success and fail Alert.
 -   The Website was tested on Google Chrome, Internet Explorer & Microsoft Edge.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
-
 
 -   ## Known Bugs
 -   Sometimes the user needs to hit the refresh button to load the map
@@ -124,11 +124,6 @@ CSS files were tested through W3C CSS Validation Service. I was able to correct 
 ## JavaScript
 
 Script files were tested through jshint Validation Service. I was able to correct all findings.
-
-# Compatibility and Responsiveness
-
- I used the Google Chrome's developer tools to see how it looks across all the different device screen sizes to ensure compatibility and responsiveness.
- I also used Am I Responsive online tool for checking responsiveness on different devices.
 
 # Technology Used
  - GitPod - an online IDE for developing this project.
@@ -173,7 +168,11 @@ Script files were tested through jshint Validation Service. I was able to correc
 12. [EmailJS:](https://www.emailjs.com/)
     - In the Contact Us page I used EmailJS to Send Email Directly From JavaScript 
      
-## Deployment
+## Branching
+  I used branching in this project.  I found it very useful at stages when I was embarking on new functionaility and not sure how it was going to turn out, it was reassuring   to know I had a choice whether to merge with the master or not.
+
+
+# Deployment
 
 ### GitHub Pages
 
@@ -225,10 +224,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly     to make site responsive using the Bootstrap Grid System.
-
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly     to make site responsive using the     Bootstrap Grid System.
 -   The Navbar code was taken from https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp, and taylored to meet my requirements
--   The Carousal code was taken from https://azmind.com/bootstrap-carousel-multiple-items/
 -   Geocode API https://developers.google.com/maps/documentation/javascript/examples/geocoding-reverse#maps_geocoding_reverse-javascript)
 -   Places API https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch#maps_places_autocomplete_hotelsearch-javascript
 
@@ -241,6 +238,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
  
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor Brian Macharia for very helpful feedback.
 
 -   Tutor support at Code Institute for their support.
