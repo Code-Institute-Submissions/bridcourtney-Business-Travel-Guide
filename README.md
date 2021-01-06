@@ -90,7 +90,9 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
      
 # Testing
 
-    The application was tested end to end with objective evidence provided for successful execution.  All requirement functionality was tested and objective evidence of each      test script attached.  Please view the Executed Test Protocol in link below - 
+-   ## Test Plan
+
+    The application was tested end to end with objective evidence provided for successful execution.  All requirement functionality was tested and objective evidence of each     test script attached.  Please view the Executed Test Protocol in link below - 
 
  -   Executed Test Protocol - [View](Test_Protocol/Test_Scripts_performed.pdf)
 
