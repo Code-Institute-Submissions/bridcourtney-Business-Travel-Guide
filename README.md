@@ -60,6 +60,13 @@ It is designed to be responsive and accessible on a range of devices, making it 
     
     <h2 align="center"><img src="assets/images/step1.JPG"></h2>
    
+    Once User selects the site they are visiting, the site information is displayed.  The site is displayed on the map.  The site location is set to the center of the map.
+    
+    <h2 align="center"><img src="assets/images/step1-results.JPG"></h2>
+    
+    STEP 2, the User can view details of the amenities in the vicinity of the site by selecting the Hotels, Restaurants & Attractions buttons. The map then displays markers       for all of the amenities returned, with on-click details for each amenity.
+    
+    <h2 align="center"><img src="assets/images/step2.JPG"></h2>
 
 ## Technologies Used
 
