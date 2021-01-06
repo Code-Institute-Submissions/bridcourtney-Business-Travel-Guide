@@ -4,7 +4,7 @@
 
 <h2 align="center"><img src="assets/images/responsive.JPG"></h2>
 
-The Abbott Business Traveller Guide, will give Visitors immediate access to information and map location of all our Abbott Sites Accross the Globe.  
+The Abbott Business Traveller Guide, will give Visitors immediate access to information and map location of our Abbott Sites Accross the Globe.  
 
 Abbott Laboratories is an American multinational medical devices and health care company with headquarters in Abbott Park, Illinois, United States. The company was founded by Chicago physician Wallace Calvin Abbott in 1888.  Today, it sells medical devices, diagnostics, branded generic medicines and nutritional products.
 
@@ -12,7 +12,7 @@ Abbott has over 160 office locations across 77 countries.  Employing over 100,00
 
 Business Travel frequency will depend on the employees position in the company.  It is highly probable that most employee will experience business travel as an Abbott Employee at some stage in their Abbott career e.g. when working on large projects across multiple sites, Training Courses etc.
 
-The 'Abbott Business Traveller Guide' will be a valuable resource to all employees that will provide an information bank on Abbott Site & locations.  For example you are with the Company 2 years, your Manager informs you of an opportinity to join a project that will involve a visit to Japan.  The Guide will provide you with site information as well as Hotels, Restaurants etc in the area  
+The 'Abbott Business Traveller Guide' will be a valuable resource to all employees that will provide an information bank on Abbott Site & locations.  For example you are with the Company 2 years, your Manager informs you of an opportinity to join a project that will involve a visit to Brazil.  The Guide will provide you with site information as well as Hotels, Restaurants etc in the area  
 
 The 'Contact Us' link will provide users an opportunity to provide feedback and suggestions.
 
@@ -26,9 +26,8 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
     -   #### Visitor Goals
 
-        1. As Visitor, I want to find the Abbot site I am visiting and learn more about the site e.g. is it Manufacturing, Commercial etc
-        2. As Visitor, I want to easily find out more about the area I am visiting e.g What Hotels, Restaurants and Attractions are in the vicinity
-        3. As Visitor, I want to be able to look for information from the Team managaging the Portal
+        1. As Visitor, I want to easily find out more about the area I am visiting e.g What Hotels, Restaurants and Attractions are in the vicinity
+        2. As Visitor, I want to be able to look for information from the Team managaging the Portal
         
 -   ### Structure
     -   #### Multi Image Carousal
@@ -49,12 +48,16 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
     -   Mobile / small device Wireframe - [View](Business-Travel-Guide_SM_Devices.pdf)
 
+# Features
 
-## Features
+-   ## Navbar
 
--   Responsive on all device sizes
+    The navigation bar features the Abbott logo in the top left corner also a link to the Contact Us page.
 
--   Interactive elements
+-   ## Country Cards
+
+    Each Country featured has a card with a relevant picture for the country.  Each Country will have a dropdown containing the list of sites available.  Step 1, instructs        the user to "Select Abbott Site from the Country dropdowns to view on map"
+    [View](assets/images/step1.JPG)
 
 ## Technologies Used
 
