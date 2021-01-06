@@ -2,6 +2,8 @@
 
 [View the live project here.]( https://bridcourtney.github.io/Business-Travel-Guide/)
 
+<h2 align="center"><img src="assets/images/responsive.jpg"></h2>
+
 The Abbott Business Traveller Guide, will give Visitors immediate access to information and map location of all our Abbott Sites Accross the Globe.  
 
 Abbott Laboratories is an American multinational medical devices and health care company with headquarters in Abbott Park, Illinois, United States. The company was founded by Chicago physician Wallace Calvin Abbott in 1888.  Today, it sells medical devices, diagnostics, branded generic medicines and nutritional products.
