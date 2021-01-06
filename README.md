@@ -67,6 +67,16 @@ It is designed to be responsive and accessible on a range of devices, making it 
     STEP 2, the User can view details of the amenities in the vicinity of the site by selecting the Hotels, Restaurants & Attractions buttons. The map then displays markers       for all of the amenities returned, with on-click details for each amenity.
     
     <h2 align="center"><img src="assets/images/step2.JPG"></h2>
+    
+    To close the Map & Amenities form, the User can click on the 'Close' Button or simply click outside of the modal form
+    
+    <h2 align="center"><img src="assets/images/close.JPG"></h2>
+
+-   ## 'Contact Us' form
+    
+    The link to 'Contact Us' form is available in the top right cornor of the main page.  User must provide name, email address and add a comment.  User will not be allowed        submit form until all fields are completed.  On successful completion user will see a message of success and once they click ok, the user will to redirected to Home Page
+    
+     <h2 align="center"><img src="assets/images/contact.JPG"></h2>
 
 ## Technologies Used
 
