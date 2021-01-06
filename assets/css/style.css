@@ -203,6 +203,14 @@ padding-right: 0%;
 }
 
 /*Footer Styling on Index Page*/
+/*Footer*/
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 
 #my_footer {
     background-color: rgb(37, 37, 32);
