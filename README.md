@@ -16,33 +16,39 @@ The 'Abbott Business Traveller Guide' will be a valuable resource to all employe
 
 The 'Contact Us' link will provide users an opportunity to provide feedback and suggestions.
 
-It is designed to be responsive and accessible on a range of devices, making it easy to navigate for employees.
+# User Experience (UX)
 
+-   ## Goals
 
+    -   ### Visitor Goals
 
-## User Experience (UX)
+        The central target audience for Business Travel Guide is:
+        - All Employees
+        - All Contactors 
+ 
+       User Goals are:
+      - View the site I am visiting on a map
+      - View the site amenities nearby
 
--   ### User stories
+-   ## User stories
 
-    -   #### Visitor Goals
+    -   #### Visitor Stories
 
-        1. As Visitor, I want to easily find out more about the area I am visiting e.g What Hotels, Restaurants and Attractions are in the vicinity
+        1. As Visitor, I want to easily find out more about the area I am visiting e.g what Hotels, Restaurants and Attractions are in the vicinity
         2. As Visitor, I want to be able to look for information from the Team managaging the Portal
         
--   ### Structure
-    -   #### Multi Image Carousal
-         -  By mousing over the Site Image the User instantly is shown the site information and location on map.  The User can then move on to the next location and new details are loaded
-           -   The multi image carousal improves the user experience as it allow the user to view site information and location on map without scrolling down.
-       -   ### Design
+-   ## Design Choices
+
     -   #### Colour Scheme
-        -   Color is fundamental in the way we express the Abbott brand. The color palette I used includes, Dark in the header and light in the footer of each page.  The                   vibrant images in the Abbott Site carousal blend well with the background image.
+        -   Color is fundamental in the way we express the Abbott brand. The color palette I used includes, Dark in the header & footer.  The vibrant images for each Country         Card blend well with the background image.
 
     -   #### Typography.
-        -   The 'Josefin Sans' font is the main font used throughout the whole website with sans-serif as the fallback font in case for any reason the font isn't being imported into the site correctly. The 'Josefin Sans'gives the Site an unified appearance throughtout. 
+        -   The 'Trebuchet MS' font is the main font used throughout the whole website. The 'Trebuchet MS'gives the Site an unified appearance throughtout. 
+        
     -   #### Imagery 
-        -   I selected vibrant images for each Site in the carousal that work well with the background image. 
+        -   I selected vibrant images for each Country that work well with the background image. 
 
-*   ### Skeleton.
+-   ## Skeleton
 
     -   Index Page Wireframe - [View](Business-Travel-Guide_Lgr&Med_Devices.pdf)
 
@@ -74,9 +80,35 @@ It is designed to be responsive and accessible on a range of devices, making it 
 
 -   ## 'Contact Us' form
     
-    The link to 'Contact Us' form is available in the top right cornor of the main page.  User must provide name, email address and add a comment.  User will not be allowed        submit form until all fields are completed.  On successful completion user will see a message of success and once they click ok, the user will to redirected to Home Page
+    The link to 'Contact Us' form is available in the top right corner of the main page.  User must provide name, email address and add a comment.  User will not be allowed        submit form until all fields are completed.  
+    On successful completion user will see a message of success and once they click ok, the user will to redirected to Home Page. 
     
      <h2 align="center"><img src="assets/images/contact.JPG"></h2>
+     
+# Testing
+
+The application was tested heavily.  All requirement functionality was tested and objective evidence of each test script attached.  Please view the Executed Test Protocol in link below - 
+
+ -   Executed Test Protocol - [View](Test_Protocol/Test_Scripts_performed.pdf)
+
+# Validators
+
+## Html
+
+All the HTML files were tested through W3C Markup Validation Service. I used the 'view page source' option, since W3C Markup Validation Service does not recognize Jinja2 templating language.  I was able to correct all findings.
+
+## CSS
+
+CSS files were tested through W3C CSS Validation Service. I was able to correct all findings.
+
+## JavaScript
+
+Script files were tested through W3C CSS Validation Service. I was able to correct all findings.
+
+# Compatibility and Responsiveness
+
+ I used the Google Chrome's developer tools to see how it looks across all the different device screen sizes to ensure compatibility and responsiveness.
+ I also used Am I Responsive online tool for checking responsiveness on different devices.
 
 ## Technologies Used
 
