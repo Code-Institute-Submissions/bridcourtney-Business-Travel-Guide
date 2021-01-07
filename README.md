@@ -100,6 +100,8 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
  
      I used the Google Chrome's developer tools to see how it looks across all the different device screen sizes to ensure compatibility and responsiveness.
      I also used Am I Responsive online tool for checking responsiveness on different devices.
+     
+     On smaller devices the ameneties results table e.g Hotel or Restaurant listing nearby appears below the map, this is not ideal for usability and is flagged as     requirement for next release
    
 -   ## Further Testing
 
