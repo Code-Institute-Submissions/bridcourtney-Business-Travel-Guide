@@ -4,7 +4,7 @@
 
 <h2 align="center"><img src="assets/images/responsive.JPG"></h2>
 
-The Abbott Business Traveller Guide, will give Visitors immediate access to information and map location to a pilot group of Abbott Sites Accross the Globe.  
+The Abbott Business Traveller Guide, will give Visitors access to information and map location to a pilot group of Abbott Sites from accross the Globe.  
 
 Abbott Laboratories is an American multinational medical devices and health care company with headquarters in Abbott Park, Illinois, United States. The company was founded by Chicago physician Wallace Calvin Abbott in 1888.  Today, it sells medical devices, diagnostics, branded generic medicines and nutritional products.
 
@@ -41,7 +41,7 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
 -   ## Design Choices
 
     -   #### Colour Scheme
-        -   Color is fundamental in the way we express the Abbott brand. The color palette I used includes, Dark in the header & footer.  The vibrant images for each Country         Card blend well with the background image.
+        -   Color is fundamental in the way we express the Abbott brand. The color palette I used includes, Dark in the header & footer.  The vibrant images for           each Country Card blend well with the background image.
 
     -   #### Typography.
         -   The 'Trebuchet MS' font is the main font used throughout the whole website. The 'Trebuchet MS'gives the Site an unified appearance throughtout. 
@@ -68,14 +68,14 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
     
     <h5 align="center"><img src="assets/images/step1.JPG"></h5>
    
-    Once User selects the site they are visiting, the site information is displayed.  The site is displayed on the map.  
+    Once User selects the site they are visiting, the site information is displayed.  The site location is displayed on the map by the red marker.  
     The site location is set to the center of the map.
     
     <h2 align="center"><img src="assets/images/step1-result.JPG"></h2>
     
-    STEP 2, the User can view details of the amenities in the vicinity of the site by selecting the Hotels, Restaurants & Attractions buttons. The map then displays markers       for all of the amenities returned in a table, with on-click details for each amenity.
+    STEP 2, the User can view details of the amenities in the vicinity of the site by selecting the Hotels, Restaurants & Attractions buttons. The map then             drops & displays green markers for all of the amenities returned in a table, with on-click details for each amenity.
     
-    <h2 align="center"><img src="assets/images/step2.JPG"></h2>
+     <h2 align="center"><img src="assets/images/step2.JPG"></h2>
     
     To close the Map & Amenities form, the User can click on the 'Close' Button or simply click outside of the modal form
     
@@ -83,7 +83,7 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
 
 -   ## 'Contact Us' form
     
-    The link to 'Contact Us' form is available in the top right corner of the main page.  User must provide name, email address and add a comment.  User will not be allowed        submit form until all fields are completed.  
+    The link to 'Contact Us' form is available in the top right corner of the main page.  User must provide name, email address and add a comment.  User will not       be allowed submit form until all fields are completed.  
     On successful completion user will see a message of success and once they click ok, the user will to redirected to Home Page. 
     
      <h2 align="center"><img src="assets/images/contact.JPG"></h2>
@@ -92,7 +92,7 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
 
 -   ## Test Plan
 
-    The application was tested end to end.  All requirement functionality was tested and objective evidence of each test script attached.  Please view the Executed Test       Protocol in link below - 
+    The application was tested end to end.  All requirement functionality was tested and objective evidence of each test script attached.  Please view the Executed     Test Protocol in link below - 
 
  -   Executed Test Protocol - [View](Test_Protocol/Test_Scripts_performed.pdf)
  
@@ -104,12 +104,12 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
 -   ## Further Testing
 
 -   During testing it was found the 'Geocoder failed due to: INVALID_REQUEST' error was appearing on startup, to fix this I added a default value to #latlng.
--   During testing users reported it was confusing that there was no response when Comment was submitted on Contact page, I fixed this by added a success and fail Alert.
+-   During testing users reported it was confusing that there was no response when Comment was submitted on Contact page, I fixed this by added a success and fail     Alert.  Also when Contact for successfully completed the User is redirected to the Main Page.
 -   The Website was tested on Google Chrome, Internet Explorer & Microsoft Edge.  
 
 -   ## Known Bugs
--   Sometimes the user needs to hit the refresh button to load the map
--   Map does not load consistently in Internet Explorer
+-   Sometimes the user needs to hit the refresh button to load the map in Chrome
+-   Map does not load consistently in Internet Explorer, as the map feature is the focal requirement, I would not recommend application use in Explorer.
 
 # Validators
 
@@ -220,23 +220,16 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-## Credits
+# Credits
 
-### Code
+## Code
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly     to make site responsive using the     Bootstrap Grid System.
 -   The Navbar code was taken from https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp, and taylored to meet my requirements
 -   Geocode API https://developers.google.com/maps/documentation/javascript/examples/geocoding-reverse#maps_geocoding_reverse-javascript)
 -   Places API https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch#maps_places_autocomplete_hotelsearch-javascript
 
-
-### Content
-
--   All content was written by the developer.
-
-
- 
-### Acknowledgements
+## Acknowledgements
 
 -   My Mentor Brian Macharia for very helpful feedback.
 
