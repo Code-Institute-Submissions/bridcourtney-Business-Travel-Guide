@@ -94,7 +94,7 @@ The 'Contact Us' link will provide users an opportunity to provide feedback and 
 
     The application was tested end to end.  All requirement functionality was tested and objective evidence of each test script attached.  Please view the Executed     Test Protocol in link below - 
 
- -   Executed Test Protocol - [View](Test_Protocol/Test_Scripts_performed.pdf)
+ -   Executed Test Protocol - [View](Testing/Executed-Test-Protocol.pdf)
  
  -   ## Compatibility and Responsiveness
  
